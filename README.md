@@ -1,1 +1,0 @@
-# gilescope.github.io
