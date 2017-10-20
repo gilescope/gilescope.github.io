@@ -213,6 +213,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed (~> 0.6)
+  jekyll-theme-hacker (~> 0.1)
+  minima (~> 2.0)
+  tzinfo-data
 
 BUNDLED WITH
    1.15.4
