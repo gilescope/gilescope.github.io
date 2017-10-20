@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Log4net Considered Harmful | Refactoring development</title>
+<meta property="og:title" content="Log4net Considered Harmful" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="| | Don&#39;t get savaged by your choice of logging library." />
+<meta property="og:description" content="| | Don&#39;t get savaged by your choice of logging library." />
+<link rel="canonical" href="http://localhost:4000/2016/02/13/Log4Net-considered-harmful.html" />
+<meta property="og:url" content="http://localhost:4000/2016/02/13/Log4Net-considered-harmful.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-02-13T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"| | Don&#39;t get savaged by your choice of logging library.","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/02/13/Log4Net-considered-harmful.html","publisher":null,"image":null,"headline":"Log4net Considered Harmful","dateModified":"2016-02-13T00:00:00+00:00","datePublished":"2016-02-13T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/02/13/Log4Net-considered-harmful.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <div class="highlighter-rouge"><pre class="highlight"><code>                                                                                                                          | | Don't get savaged by your choice of logging library.
+</code></pre>
+</div>
+
+<p>I feel a little pang of guilt calling out Log4Net specifically as this applies to NLog and all the other .net logging frameworks out there.</p>
+
+<p>But I’m not going to feel too guilty given the vast amount of time and trouble that different Log4net versions have caused me over the years.</p>
+
+<h3>When to use a logging framework</h3>
+
+<p>Log4Net, NLog and other logging frameworks are fair game to use if you are the end user. If you’re developing a UI or a website or you’re writing a service then knock yourself out.</p>
+
+<p>But even as you do so there’s no harm in using framework logging and redirecting that framework logging into your favourite log distribution  / persistence framework.</p>
+
+<h3>When to use framework logging<a href="http://gilescope.ninja/wp-content/uploads/2015/06/UseTRACE.png"><img class="alignright wp-image-339 size-full" src="http://gilescope.ninja/wp-content/uploads/2015/06/UseTRACE.png" alt="Use System Diagnostics Trace  to feed Log4Net" width="160" height="600" /></a></h3>
+
+<p>If you’re writing a component that other people will (or might) use then you want to minimise the dependencies you use to avoid version conflicts. For high profile common libraries like logging frameworks you can almost guarantee that with a few different teams using your component several of them will also be using the same one. Pain ensues which can be massaged with assembly binding redirects (or recompiling your logging framework under a different name and having the clients write a log4netTolog4net adaptor - seriously don’t do this!).</p>
+
+<p>Instead recall that the whole .net framework logs vast quantities of data to the system diagnostics tracing framework already.</p>
+
+<ul>
+    <li>You'll find it's more than fast enough for your usage (you may even encounter new race conditions should you switch to using it as it seems to block less than log4net).</li>
+    <li>You'll be shipping one less dll</li>
+    <li>No chance of clashing with another logging framework (They all can redirect the native tracing).</li>
+</ul>
+
+<p>Nay sayers will say you can’t hierarchical listen with tracing, but direct these nay sayers <a href="https://github.com/clariuslabs/NuTracer/wiki/Hierarchical-Tracing" target="_blank">here</a>.</p>
+
+<h3>Recap:</h3>
+
+<p>There’s no reason not to use System Diagnostics Tracing - with no drawbacks it should be your go to logger.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>(Sorry couldn’t resist pointing out that all the logs belong to Splunk (or ELK).)</td>
+    </tr>
+  </tbody>
+</table>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

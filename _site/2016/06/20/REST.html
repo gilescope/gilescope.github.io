@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Rest | Refactoring development</title>
+<meta property="og:title" content="Rest" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="| | It&#39;s been here for some time, but after a few false starts (the not-so-simple SOAP protocol and WS-*-BS) it seems the world has finally agreed on Json/REST as the de-facto protocol or lingua franca of the web." />
+<meta property="og:description" content="| | It&#39;s been here for some time, but after a few false starts (the not-so-simple SOAP protocol and WS-*-BS) it seems the world has finally agreed on Json/REST as the de-facto protocol or lingua franca of the web." />
+<link rel="canonical" href="http://localhost:4000/2016/06/20/REST.html" />
+<meta property="og:url" content="http://localhost:4000/2016/06/20/REST.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-06-20T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"| | It&#39;s been here for some time, but after a few false starts (the not-so-simple SOAP protocol and WS-*-BS) it seems the world has finally agreed on Json/REST as the de-facto protocol or lingua franca of the web.","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/06/20/REST.html","publisher":null,"image":null,"headline":"Rest","dateModified":"2016-06-20T00:00:00+01:00","datePublished":"2016-06-20T00:00:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/06/20/REST.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <div class="highlighter-rouge"><pre class="highlight"><code>                                                                                                                                                                            | | It's been here for some time, but after a few false starts (the not-so-simple SOAP protocol and WS-*-BS) it seems the world has finally agreed on Json/REST as the de-facto protocol or lingua franca of the web.
+</code></pre>
+</div>
+
+<!--more-->
+
+<h2>Discovery</h2>
+
+<p>How do we discover it? Discover has always been an after-thought with REST, but these days most rest frameworks come with built in discovery (at least for human).</p>
+
+<p>But as devs, we always like consistency, - that’s where things like <a title="REST API Documentation" href="http://swagger.io/" target="_blank">Swagger</a> come in - read <a title="Swagger Spec" href="https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md" target="_blank">spec 2.0 here</a>.</p>
+
+<h2>Strong-ish Typing</h2>
+
+<p>Swagger stands on the shoulders of the <a title="Json Schema" href="http://json-schema.org/latest/json-schema-core.html" target="_blank">Json Schema</a> project. With the types announced it’s a stones throw to auto-generate bindings for all the strongly typed languages out there.</p>
+
+<h2>Testing</h2>
+
+<p>Having all these services out there that we rely on is great, but we need to be able to stub them out with fakes. This is where open source projects like <a title="Mock Rest APIs" href="http://mockbin.org/" target="_blank">mockbin</a> come in. By being able to record and then replay you can isolate yourself from your other (micro)services.</p>
+
+<h2>Versioning</h2>
+
+<p>Swagger supports marking bits of your API as deprecated which gives your users a warning they should be upgrading.</p>
+
+<h2>Final thoughts...</h2>
+
+<p>Simple is good, it keeps everything very mashable. If the de-facto services interface is Json/REST, doesn’t that make <a title="Why Enterprise JavaScript is inevitable…" href="http://gilescope.ninja/ejs/">Enterprise JavaScript inevitable</a>?</p>
+
+<hr />
+
+<p>Examples of ‘Universal JavaScript’ (yes now JavaScript on the server has a cool name - well better than ‘Isomorphic JavaScript’) :</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="http://techblog.netflix.com/2015/08/making-netflixcom-faster.html">NetFlix</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Feedback Loops | Refactoring development</title>
+<meta property="og:title" content="Feedback Loops" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Feedback Loops aka Cycle Time | | The key to Programming like running any business is about one thing only." />
+<meta property="og:description" content="Feedback Loops aka Cycle Time | | The key to Programming like running any business is about one thing only." />
+<link rel="canonical" href="http://localhost:4000/2016/08/24/Feedback-Loops.html" />
+<meta property="og:url" content="http://localhost:4000/2016/08/24/Feedback-Loops.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-08-24T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Feedback Loops aka Cycle Time | | The key to Programming like running any business is about one thing only.","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/08/24/Feedback-Loops.html","publisher":null,"image":null,"headline":"Feedback Loops","dateModified":"2016-08-24T00:00:00+01:00","datePublished":"2016-08-24T00:00:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/08/24/Feedback-Loops.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="feedback-loops-aka-cycle-time------------------------------------------------------------------------------------------------------">Feedback Loops aka Cycle Time                                                                                                      |</h1>
+<p>| The key to Programming like running any business is about one thing only.</p>
+
+<!--more-->
+<p>Feedback loops.</p>
+
+<p>With good feedback even if you start in completely the wrong direction you will be able to correct your course early on. With good feedback loops you can take risks, and risks allow you to have simpler designs and happier customers.</p>
+
+<p>Without good feedback you have fear. Fear of breaking what you already have, fear of building the wrong thing (create a massive specification document that is signed off and locked down to mitigate this ;-)).</p>
+
+<blockquote>
+<p style="text-align: right;">I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.
+Frank herbert</p>
+</blockquote>
+
+<p>How tight can you make yours?</p>
+
+<p><a href="http://www.ncrunch.net" target="_blank">NCrunch</a> and <a href="http://karma-runner.github.io/0.12/index.html" target="_blank">Karma</a> can make the TDD cycle pretty tight - the tests are running while you’re still typing! (Check out <a href="https://blog.jetbrains.com/dotnet/2015/11/19/continuous-testing-in-dotcover-and-resharper-ultimate/" target="_blank">JetBrain’s take</a> on it)</p>
+
+<p>CI allows lots of integration tests to run. ( CD gets the results in front of a real user (human or otherwise).</p>
+
+<p>Keep things simple - keep branching to a minimum so the above is easier (1 branch is best) - branch by abstraction instead.</p>
+
+<p>Maybe we should be taking a step back and monitoring our development feedback curve,</p>
+
+<h2>Dev feedback loops</h2>
+
+<ol>
+    <li>How long to incremental compile? (compile a second time when you didn't change anything )</li>
+    <li>How long to run the quick tests?</li>
+    <li>How long for the CI built to go green?</li>
+    <li>How long to deploy a system to an environment ?</li>
+    <li>How long to determine whether a deployed system works? potentially <a href="http://spectrum.ieee.org/view-from-the-valley/computing/software/yahoos-engineers-move-to-coding-without-a-net" target="_blank">Drop independent QA</a> like Yahoo! have.</li>
+    <li>How long to ship it?</li>
+</ol>
+
+<p>Where does Pair Programming fit in? - for me it’s at 0 as you’re constantly improving, not being lazy, staying focused and coming up with hybrid ideas that neither of you would have had on your own.</p>
+
+<h2>Production feedback loops</h2>
+
+<p>It doesn’t stop there, feedback from the live system is also critical - whether you are using <a href="http://Splunk.com" target="_blank">Splunk</a> or <a href="http://aarvik.dk/a-bit-on-elasticsearch-logstash-kibana-the-elk-stack/" target="_blank">ELK</a>, to collect that data allows you to see how a new system reacts compared with the previous version.</p>
+
+<ol>
+    <li>Health checks - are the power on self tests and heartbeats working?</li>
+    <li>Memory,  disk access,  processor, exceptions, disk usage - does the uat version have a better profile than the current prod? How does one hour / day / week differ from another?</li>
+    <li>Performance bottlenecks - where's the current kink in the system?</li>
+    <li>Capacity and trending - do you need more hardware / disk space?</li>
+</ol>
+
+<h2>UX</h2>
+
+<p>Having a good user experience when using a website / app is all about getting good timely feedback - the difference between half a second and a full second can make all the difference in terms of having a flowing experience.</p>
+
+<h2>Personal feedback loops</h2>
+
+<p>I’m not sure all of these quite classify as feedback loops (except perhaps to make the processes more streamlined for the next guy that joins)</p>
+
+<ol>
+    <li>How fast can a new person get permission and installs to work on the project?</li>
+    <li>How quickly can new joiners become productive?</li>
+    <li>How often do you have a retrospective?</li>
+    <li>Statutory Performance appraisals (too long a loop!)</li>
+</ol>
+<p>|</p>
+
+<h1 id="zoning----minimise-distractions">Zoning -  Minimise Distractions</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>                                                | | Minimise Distractions Pair KanBan Listen to music - Don't listen to other peoples phone conferences! Stay in the zone - if things are going well, keep the ball rolling as long as possible!
+</code></pre>
+</div>
+
+<p>When not to be focused?</p>
+
+<p>If you are stuck, let your unconscious mind work on the problem while you do something completely different (whether that’s helping a colleague or having a gym session).</p>
+
+<p>Solving problems the hard way
+You’re going to get stuck on a gottcha, and you can keep banging your head on the brick wall until it gives way and you figure out what the slight tweak was that makes it all work. This can easily take days if you’re not careful!</p>
+
+<p>Solving problems the smart way
+Rather than let the gotch turn into a GumptionTrap,</p>
+<ul>
+  <li>there’s almost always a way around your problem if you back up a bit, in fact there’s usually a large set of alternatives you could try (some of these will be better than what you were proposing to do anyway). By backing up and solving the problem a (potentially sub-optimal) way it keeps your momentum going.</li>
+</ul>
+
+<p>The great news is that quite often (days / weeks / months) later you’ll stumble on what you were doing wrong originally and (if that way was better than the workaround) you’ll be able to switch back to it. Asynchronous gotcha optimisation?</p>
+
+<p>Either way, cache your experience - leave a trail for you or others to follow so if they do walk into the same problem later on (whether as a comment or a stack overflow answer) they’ll fix it sooner…</p>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Cache By Hash | Refactoring development</title>
+<meta property="og:title" content="Cache By Hash" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cache by Hash" />
+<meta property="og:description" content="Cache by Hash" />
+<link rel="canonical" href="http://localhost:4000/2016/01/04/Cache-by-Hash.html" />
+<meta property="og:url" content="http://localhost:4000/2016/01/04/Cache-by-Hash.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-01-04T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Cache by Hash","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/01/04/Cache-by-Hash.html","publisher":null,"image":null,"headline":"Cache By Hash","dateModified":"2016-01-04T00:00:00+00:00","datePublished":"2016-01-04T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/01/04/Cache-by-Hash.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="cache-by-hash">Cache by Hash</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Cache by hash has been on my mind for a while, but I saw <a href="http://security.stackexchange.com/questions/29696/content-hashes-to-help-protect-resources-being-fetched-from-a-cdn" target="_blank">this</a> and it makes me convinced that the web is going to head in this direction for scaling. Maybe we won’t get quite as far as <a href="http://ipfs.io/" target="_blank">IPFS</a> hopes, but I’m sure we’re heading in that direction.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p> </p>
+
+<p>There’s a great free e-book on how git works (<a title="Pro Git" href="http://git-scm.com/book/en/v2">Pro-Git</a>). For me the biggest take-away was the beauty of storing data by it’s hashcode (SHA256 in git’s case).</p>
+
+<p>If you can exclude mutable things like the filename and timestamps, then when you have multiple copies of the same file (or chunk of data) you’ll naturally save them under the same location. You could call this ‘hash based compression’ as the same chunk of data is never stored twice.</p>
+
+<p>You’d need to reference count the pointers to this chunk of data (file) if you wanted to delete it (unless you’re using a time based clean up).</p>
+
+<h3>Ok, so no dupe, but what about load balancing?</h3>
+
+<p>It turns out that the <a title="Chord" href="https://en.wikipedia.org/wiki/Chord_(peer-to-peer)">chord algorithm</a> is perfect for this (or pick any other <a title="Distributed Hash Table" href="https://en.wikipedia.org/wiki/Distributed_hash_table" target="_blank">DHT algo</a>). You can split up where you store the data and can store it n-times for redundancy.</p>
+
+<h3>Key Gotcha</h3>
+
+<p>There’s still the question of how to get the hash if you don’t have the original. The hash makes a perfect immutable key for the data, but you still need to map from your mutable key (filename/timestamp) to the immutable key.</p>
+
+<p>The good news is you have split the problem into two distinct problems:</p>
+
+<ol>
+    <li>Mapping from a small mutable key to a small immutable hash.</li>
+    <li>Distribution of the (heavy) data.</li>
+</ol>
+
+<p>Once you’ve keyed by hash you can’t get the wrong / out of date contents. It is at this stage very error-proof. (And you can always verify that the data you have does indeed match the hash).</p>
+
+<h3>Versioning</h3>
+
+<p>So far, so good, but how do you have a version 1, version 2 etc of an object? If we’re storing the object under its hashed address we can hash the hash (or just add one to the hash) and store the pointer there to the next hash. (For a more in-depth discussion on this topic see <a href="http://joearms.github.io/2015/06/19/Mutable-Value_Chains.html" target="_blank">Mutable Value Chains</a>)</p>
+
+<p> </p>
+
+<h3>Additional references:</h3>
+
+<p><a title="Single instance storage" href="https://en.wikipedia.org/wiki/Single-instance_storage">Single Instance Storage</a></p>
+
+<p><a href="http://www.w3.org/TR/SRI/" target="_blank">W3C’s SRI working draft</a> (Supported by Chrome and FireFox)</p>
+
+<p><a href="http://blog.jsdelivr.com/" target="_blank">SRI CDN jsdelivr</a></p>
+
+<hr />
+
+<p> </p>
+
+<p>UPDATE</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>I see Docker has finally moved to using cache via hash for their layers and images (“<a href="https://blog.docker.com/2016/02/docker-1-10/" target="_blank">content addressable image ids</a>” they call them.).</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Cache by hash has been on my mind for a while, but I saw <a href="http://security.stackexchange.com/questions/29696/content-hashes-to-help-protect-resources-being-fetched-from-a-cdn" target="_blank">this</a> and it makes me convinced that the web is going to head in this direction for scaling. Maybe we won’t get quite as far as <a href="http://ipfs.io/" target="_blank">IPFS</a> hopes, but I’m sure we’re heading in that direction.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p> </p>
+
+<p>&lt;hr /</p>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

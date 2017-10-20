@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Universal Javascript | Refactoring development</title>
+<meta property="og:title" content="Universal Javascript" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Universal JavaScript" />
+<meta property="og:description" content="Universal JavaScript" />
+<link rel="canonical" href="http://localhost:4000/2016/01/10/Universal-JavaScript.html" />
+<meta property="og:url" content="http://localhost:4000/2016/01/10/Universal-JavaScript.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-01-10T00:00:00+00:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Universal JavaScript","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/01/10/Universal-JavaScript.html","publisher":null,"image":null,"headline":"Universal Javascript","dateModified":"2016-01-10T00:00:00+00:00","datePublished":"2016-01-10T00:00:00+00:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/01/10/Universal-JavaScript.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="universal-javascript">Universal JavaScript</h1>
+
+<p>People laughed when I told them that the future of the enterprise is JavaScript. I told them it’s inevitable…and with ES6 ratified we’re one step closer.</p>
+
+<h3>Performance?</h3>
+
+<p>They perceive JavaScript circa 1990s performance, with rough edges and a text editor as an IDE. It’s a world away from the truth now, with the raw speed of <a title="asm.js - high performance javascript" href="http://asmjs.org/" target="_blank">asm.js</a> at the cutting edge, and standard JavaScript performance is ’good enough’ (almost every Java hotspot technique has been ported across to the JavaScript VMs). In 90% of business cases it’s not performance that’s stopping JavaScript.</p>
+
+<blockquote>JavaScript is a platform, not just a language.</blockquote>
+
+<p>And it’s only going to get better. Speed up Java or .Net and it helps a bit, but speed up JavaScript and you’ve just added a fraction onto the world’s GDP. There’s far more money backing speeding up JavaScript than anything else. (Remember JavaScript is a platform, not just a language.)</p>
+
+<blockquote>Check out the new <a href="https://brendaneich.com/2015/06/from-asm-js-to-webassembly/" target="_blank">WebAssemby movement</a> (backed by all the right people) we might have a way to gradually migrate towards Javascript as a Platform.</blockquote>
+
+<p><a href="https://hacks.mozilla.org/2015/12/compiling-to-webassembly-its-happening/">Latest news on WebAssembly front</a> - they’re getting there.</p>
+
+<h3>JS @ Front</h3>
+
+<p>The days of fat clients and WinForms/WPF are largely over. There’s little justification for not going HTML5 in a business setting. The UI I think we’re all agreed is going to be HTML and JavaScript for the foreseeable future.</p>
+
+<h3>JS @ Back</h3>
+
+<p>While Java and .NET back ends (and even some C++) will be around indefinitely, they are going to have to roll over and let JavaScript take its fare share of the bed. It started with Node.JS getting the ball rolling, but I’m sure there will be many other server side JavaScript platforms (it’s great to see <a href="https://iojs.org/en/index.html" target="_blank">io.js</a> is going to merge back with node.js soon). We hope they will learn from the lessons and pain Java went through with J2EE.</p>
+
+<h3>Tooling</h3>
+
+<p>The days of textpad are numbered. JavaScript has almost as good IDEs as the static languages have thanks to Chrome’s developer tools and JetBrain’s excellent WebStorm. Add in a little <a title="Karma test runner" href="http://karma-runner.github.io/0.8/config/coverage.html" target="_blank">Karma</a> and you’ve got a TDD platform that’s arguably better than today’s C# can manage.</p>
+
+<p>But there’s more - Chrome’s next step in DevTools development is to allow you to use the Chrome devtools to debug <em>both</em> the client and the server from the comfort of your browser. This should lead to a very compelling and tight development loop. Read more about the <a href="https://developers.google.com/web/updates/2016/06/devtools-digest">Chrome Dev tools plans</a>.</p>
+
+<p>And it’s only going to get better.</p>
+
+<h3>The Future</h3>
+
+<p>JavaScript’s not a static language, it’s dynamic and evolving at a good pace. One thing that’s clear to me is that the future is <a title="Strong typing in a dynamic world" href="http://definitelytyped.org/" target="_blank">definitely typed</a> - with ES6 approved, the next big leap for the language in ES7 is giving people the option to type. FaceBook, Google and Microsoft are all rallying around definitely typed as a standard, and with those backers I wouldn’t want to bet against it.</p>
+
+<ul>
+    <li>A look into <a href="https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/" target="_blank">ES6 string templating</a></li>
+    <li>For now you'll still have to <a href="https://babeljs.io/" target="_blank">transpile</a> to ES5 until there's <a href="https://kangax.github.io/compat-table/es6/" target="_blank">browser support</a>.</li>
+</ul>
+
+<h3>Round up</h3>
+
+<p>All this JavaScript on the server - is it such a bad thing? Having one language on the client and server is an advantage. But it doesn’t stop there, JavaScript’s async nature means that it’s tilted in the direction of large parallel processing, and at its heart it’s a functional language (though a far cry from Haskall) with not too many bells and whistles.</p>
+
+<p>Whether you think it’s a great or a terrible idea, as sure as eggs is eggs we’re going to see a whole lot of JavaScript on the server. So while some of you might not like the idea, it’s time to get used to it.</p>
+
+<p>I for one welcome our new overlord. Given EJS is inevitable, are you ready?</p>
+
+<hr />
+
+<p>UPDATE: here’s a great writeup on the current <a href="http://engineering.widen.com/blog/future-of-the-web-react-falcor/">best of breed enterprise JavaScript stack</a>. - React, node and some cute transport between them. - A great starting place.</p>
+
+<hr />
+
+<p> </p>
+
+<p>UPDATE: A wonderful talk on Redux demonstrates the power of immutable state - it’s so nice to see how simple powerful things can be when you get it right, and React and Redux have definitely got it spot on - really recommend watching this - it’s worth every min:</p>
+
+<p>https://www.youtube.com/watch?v=xsSnOQynTHs</p>
+
+<p>(If you can’t watch the video, this <a href="https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6">cartoon</a> will have to do.)</p>
+
+<hr />
+
+<p>Check out <a href="https://github.com/dthree/cash">CASH</a> - a JavaScript shell for windows to give you cyg-win like powers…this is the beginning of something big.</p>
+
+<hr />
+
+<p>Testing rocks as well in JavaScript - combining <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign">Object.assign</a> and</p>
+
+<pre><a href="https://github.com/michelsalib/chai-shallow-deep-equal">chai-shallow-deep-equal</a> allows you to assert many properties of an object at once in an elegant manner by just specifying the JSON you'd expect to be there. (How I wish we had this in c#!)</pre>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

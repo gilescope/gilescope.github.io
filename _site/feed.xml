@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-20T17:52:24+01:00</updated><id>http://localhost:4000/</id><title type="html">Refactoring development</title><subtitle>Ramblings from the trenches...
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/10/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-10-15T10:29:24+01:00</published><updated>2017-10-15T10:29:24+01:00</updated><id>http://localhost:4000/jekyll/update/2017/10/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/10/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The Quickening</title><link href="http://localhost:4000/cryptocurrencies/2017/10/14/The-Quickening.html" rel="alternate" type="text/html" title="The Quickening" /><published>2017-10-14T17:29:24+01:00</published><updated>2017-10-14T17:29:24+01:00</updated><id>http://localhost:4000/cryptocurrencies/2017/10/14/The-Quickening</id><content type="html" xml:base="http://localhost:4000/cryptocurrencies/2017/10/14/The-Quickening.html">&lt;p&gt;THE QUICKENING&lt;/p&gt;
+
+&lt;p&gt;It starts slow.&lt;/p&gt;
+
+&lt;p&gt;A wallet here, a wallet there. Maybe somehow you get to but a cup of coffee with bitcoin. After quite a few years, bitcoin has withstood the challenges of the world and suggested that just maybe it is unhackable in the small. China could still pull the plug, but what we see with these decentralised networks is that every attempt to censor and shut them down winds up forcing them towards a path of being even stronger. China with the closure of exchanges spurs development of decentralised exchanges.&lt;/p&gt;
+
+&lt;p&gt;I think it was wonderful to see IPFS used in anger for the Catelonia referendum. A great demonstration of why even in first world countries we need to be able to have free speech.&lt;/p&gt;
+
+&lt;p&gt;There’s no such thing as a free lunch though. Free speech comes at the cost of having the haters being able to have their say. Whether you choose to look though is your choice. With Ethereum reinventing stocks, everyone in the world can participate in helping new ventures get off the ground. There will be many many scams and cons at the start as people get taken for a ride. Then there will be outcries asking to ban everything and unleash a ton of regulation. But the scammers are the ones that don’t adhear to the regulation and the usual punishment of throwing them in jail just isn’t possible (How many spammers are behind bars?).
+While legislation may be too slow, the developers of the world will provide a myriad of distributed solutions that people will be able to opt into using. Like ad-blockers stopping malicious adverts, people will choose to accept ICO screeners and various (decentralised) verification systems.
+We are on a very exciting journey through cyberfinance that will change the world forever. This is internet 2.0. Let’s hope the machines are lenient on their makers.&lt;/p&gt;</content><author><name></name></author><summary type="html">THE QUICKENING</summary></entry><entry><title type="html">Rust FTW</title><link href="http://localhost:4000/languages/2017/05/15/Rust-FTW.html" rel="alternate" type="text/html" title="Rust FTW" /><published>2017-05-15T17:29:24+01:00</published><updated>2017-05-15T17:29:24+01:00</updated><id>http://localhost:4000/languages/2017/05/15/Rust-FTW</id><content type="html" xml:base="http://localhost:4000/languages/2017/05/15/Rust-FTW.html">&lt;h1 id=&quot;rust&quot;&gt;Rust&lt;/h1&gt;
+
+&lt;p&gt;It seems a long time ago now, but I recall the reasons why I first really took to Java. It was a safe place to be, with no operator overloading, implicit casts and checked exceptions. It is a far cry from the shotgun that is C++ (very easy to blow your own legs off). - For example in Java (unlike C#) you always knew that something on the left of the ‘.’ was null when you got a null pointer exception. (Rust goes one step further by not having a ‘null’.)&lt;/p&gt;
+
+&lt;p&gt;It was an easy language to reason with - few surprises. In a business context where someone’s taken the liberty to pre-write a million lines of code for you, few surprises counts for a lot.&lt;/p&gt;
+
+&lt;p&gt;Or at least Java was an easy language to reason with until the classloaders started loading classloaders…&lt;/p&gt;
+
+&lt;p&gt;Safety seems baked into the &lt;a class=&quot;zem_slink&quot; title=&quot;Rust (programming language)&quot; href=&quot;http://en.wikipedia.org/wiki/Rust_%28programming_language%29&quot; target=&quot;_blank&quot; rel=&quot;wikipedia&quot;&gt;Rust language&lt;/a&gt;, from the lack of C-style for (int i=0; i&amp;lt;…;i++) loops, to every variable being owned by something. Checked exceptions make another appearance (though in a more pattern matching guise). Variables are immutable by default but when mutable only one thread can alter them at any one time. The list goes on and on of little tweaks here and there that will add up to more robust (and faster) code being written.&lt;/p&gt;
+
+&lt;p&gt;Rust was meant to be just a systems programming language but I suspect they’re going to wildly overshoot the mark.&lt;/p&gt;
+
+&lt;p&gt;The cost of maintaining a business’s software keeps becoming a greater percentage of the business’s overall costs - the software is the business for many. As such, maintainable code is cheaper. Cost wise a Rust codebase seems a cheaper codebase to maintain.&lt;/p&gt;
+
+&lt;p&gt;Pre-rust, I used to just call a function with some arguments. Post-rust I’m now forced to consider whether I want to send over a mutable or immutable version of each argument. There is a mental leap that needs to happen to code in Rust, but this is a one-off cost amortisable away.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3&gt;Compile time Test Coverage&lt;/h3&gt;
+
+&lt;p&gt;This one is really neat, - something they really should call out as a ‘feature’ of Rust. When you run ‘cargo test’ to run your tests, it first compiles the code. Nothing special here you might think, but main() is presumed to not exist and your tests are presumed to be called. This means if you’ve not tested a chunk of code then it gets picked up by the #[warn(dead_code)] checker.&lt;/p&gt;
+
+&lt;p&gt;How beautiful is that? compile time test coverage. Sweet.&lt;/p&gt;
+
+&lt;p&gt;(Oh, and assertions failing somehow show a great failure message rather than just assertion failed at this line number.)&lt;/p&gt;
+
+&lt;h3&gt;Rust FTW&lt;/h3&gt;
+
+&lt;p&gt;Right now, Rust is probably the safest most efficient language to code in. It’s a fairly high level language with few compromises. If you have 100-10000+ developers in your company policing threadsafe code in c++/java/c# is pretty much impossible - you have to fall back on many processes. With Rust in an enterprise environment threadsafe code is a much more achievable goal.&lt;/p&gt;
+
+&lt;p&gt;I love the phrase ‘&lt;a href=&quot;https://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html&quot;&gt;fearless concurrency&lt;/a&gt;’ - in a multi-core world, this is the language we need. History I suspect will show Rust as being the first major breakthrough in language design of the 21st century.&lt;/p&gt;
+
+&lt;p&gt;There’s always a catch… in Rust’s case it is a steep learning curve. There’s learning the syntax and
+the libraries. This is much like the learning cost of Java, Python or C#. But then
+if Rust was just like Java or Python then the world would not have moved forward.&lt;/p&gt;
+
+&lt;p&gt;The second half of learning Rust is understanding the language’s constraints 
+and re-learning all the patterns of programming. I suspect Rust is easier to teach to a
+fresh programmer than someone who has coded for years as it does require you to think differently and for me at 
+least that takes time.&lt;/p&gt;
+
+&lt;h3&gt;Getting Started&lt;/h3&gt;
+
+&lt;p&gt;So now that I’ve badgered you into submission, here’s some great ways to get stuck in:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://intellij-rust.github.io/&quot;&gt;https://intellij-rust.github.io/&lt;/a&gt; - I'd suggest you use this plugin with CLion ideally but any jetbrains IDE should work. It now has a debugger that works on OSX. Every week it gets more awesome.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://rustbyexample.com/&quot;&gt;http://rustbyexample.com/&lt;/a&gt; is an excellent guide as well as the language reference.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HqxjwXqIPmI&quot;&gt;https://www.youtube.com/watch?v=HqxjwXqIPmI&lt;/a&gt; - The Rust fasttrack series are excellent ways to help understand lifetimes, mutability and borrowing - sometimes reading isn't enough.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/ctjhoa/rust-learning&quot;&gt;https://github.com/ctjhoa/rust-learning&lt;/a&gt; - curated guide to the best articles on the web about Rust.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Lessons learned&lt;/h3&gt;
+
+&lt;p&gt;I am by no means great at coding rust, I’m still on that learning curve, but hopefully some of the things I’ve noticed may ease your learning of rust. So while these tips maybe helpful, there’s probably nicer, even more rustonic ways of doing things.&lt;/p&gt;
+
+&lt;h4&gt;Options&lt;/h4&gt;
+
+&lt;p&gt;Option&amp;lt;T&amp;gt; is used a lot in rust as an alternative to a nullable type. To get at the value you can match against it:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_option&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{:?}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is great, but a little verbose. It turns out you can do pattern matching &lt;a href=&quot;https://doc.rust-lang.org/book/if-let.html&quot;&gt;ifs&lt;/a&gt; like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_option&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{:?}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Which is a lot neater if you only care about one branch.&lt;/p&gt;
+
+&lt;h4&gt;Making friends with the compiler&lt;/h4&gt;
+
+&lt;p&gt;If you’ve come from a manage language the compiler/borrowchecker can be a little angry at first. The simplest rule to not annoy the compiler is this: pass all function arguments by reference, return by value.&lt;/p&gt;
+
+&lt;p&gt;I.e.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_compiler_friendly_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nf&quot;&gt;my_compiler_friendly_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In general the above is what you want to do - you’re passing non-mutable references into the function which means that you can use a and b after the function call. You want to not return a reference because if you do you would need to let the compiler know how long it’s going to live for - i.e. you’d need to introduce an explicit lifetime parameter.&lt;/p&gt;
+
+&lt;p&gt;The above is just a way to simplify getting started with rust - there’s a lot to learn and by keeping to the above you can learn a lot of rust without having to also concentrate as much on lifetimes.&lt;/p&gt;
+
+&lt;p&gt;The same applies to print also:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;world&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello {}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello {}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can’t do this as by passing without a reference to println it’s gobbling up ownership of the world String. You want to do println(“Hello {}”, &amp;amp;world) - almost always for prints pass by reference.&lt;/p&gt;
+
+&lt;h2&gt;Rust on OSX&lt;/h2&gt;
+
+&lt;p&gt;OSX is the poor man’s relation to Rust on Windows and Linux. They get all sorts of newfangled things like debuggers and line numbers in the stack trace. Alas on OSX lldb’s frame variable command returns nothing at the moment and line numbers on OSX stacktraces are for wimps.&lt;/p&gt;
+
+&lt;p&gt;So to celebrate &lt;a href=&quot;https://blog.rust-lang.org/2017/05/15/rust-at-two-years.html&quot;&gt;Rust turning two&lt;/a&gt; today I’ve written my first macro using an excellent tutorial on &lt;a href=&quot;https://danielkeep.github.io/practical-intro-to-macros.html&quot;&gt;macro_rules!&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;nd&quot;&gt;macro_rules!&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$first:expr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;concat!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{}:{} &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$first&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;file!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;line!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$first:expr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$arg:expr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;concat!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{}:{} &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$first&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;file!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;line!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now the above may not look pretty but in place of println!() it will 
+tell you where each log message was output. And hyperlinked to the 
+file location in intellirust!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Could use location of matching rust macro as a structural search and replace in intellirust&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Rust</summary></entry><entry><title type="html">Wordpress</title><link href="http://localhost:4000/2017/04/23/Wordpress.html" rel="alternate" type="text/html" title="Wordpress" /><published>2017-04-23T00:00:00+01:00</published><updated>2017-04-23T00:00:00+01:00</updated><id>http://localhost:4000/2017/04/23/Wordpress</id><content type="html" xml:base="http://localhost:4000/2017/04/23/Wordpress.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;The best bits that I’ve come across in my WordPress journey…&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Public domain Images:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://unspash.com/&quot;&gt;http://unspash.com/&lt;/a&gt; , &lt;a href=&quot;http://nos.twnsnd.co/&quot; target=&quot;_blank&quot;&gt;http://nos.twnsnd.co/&lt;/a&gt; , &lt;a href=&quot;https://stocksnap.io/&quot; target=&quot;_blank&quot;&gt;https://stocksnap.io/&lt;/a&gt; , &lt;a href=&quot;http://www.lifeofpix.com/&quot; target=&quot;_blank&quot;&gt;http://www.lifeofpix.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don’t have time to learn Adobe Illustrator, this is a much easier choice:&lt;/p&gt;
+
+&lt;p&gt;https://www.canva.com/&lt;/p&gt;
+
+&lt;p&gt;https://www.competethemes.com/wordpress-resources/&lt;/p&gt;
+
+&lt;p&gt;beaver builder&lt;/p&gt;
+
+&lt;p&gt;http://www.picmonkey.com/&lt;/p&gt;
+
+&lt;p&gt;http://www.colourlovers.com/&lt;/p&gt;
+
+&lt;p&gt;http://www.svgeneration.com/&lt;/p&gt;
+
+&lt;p&gt;Stress test your hosting:
+https://app.loadimpact.com/&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;You lock your back door when you go out right? It’s important not to leave yourself wide open to criminals - Get yourself tested at &lt;a href=&quot;https://www.ssllabs.com/ssltest/index.html&quot; target=&quot;_blank&quot;&gt;SslLabs.com.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Make a static version of your website so you can publish with S3:
+(For mac brew install wget)
+wget -m -k -r –adjust-extension –restrict-file-names=windows&lt;/p&gt;
+
+&lt;p&gt;I love the idea of PublishPress also but that seems to require a multi-site wp install.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ideas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Everyone needs inspiration, and while there’s many sites out there https://www.crayon.co/ is unique in showing you how a site or landing page has changed over time. What better way to see the visual impact of what they’ve changed? A great way to learn a lot.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">      The best bits that I’ve come across in my WordPress journey…</summary></entry><entry><title type="html">State Of The Art</title><link href="http://localhost:4000/2016/12/02/State-of-the-art.html" rel="alternate" type="text/html" title="State Of The Art" /><published>2016-12-02T00:00:00+00:00</published><updated>2016-12-02T00:00:00+00:00</updated><id>http://localhost:4000/2016/12/02/State-of-the-art</id><content type="html" xml:base="http://localhost:4000/2016/12/02/State-of-the-art.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                                                         | | You are doing it already. You're reading this. I'm willing to believe that means you care.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you do nothing else, you will find that is enough. &lt;/p&gt;
+
+&lt;p&gt;We are a young science,  a young discipline and right now  discipline is still the last thing that we need!  If you think you’ve seen it all in the 50 years we’ve been doing this think again. You right now have, as much right to make the next big connection as, anyone.&lt;/p&gt;
+
+&lt;p&gt;It took me years to realise that state of the art was what we were doing. It’s ok the bar isn’t that high.&lt;/p&gt;
+
+&lt;p&gt;Back in the 80s (when I was 7)  (how did it autocomplete that correctly?)  if you were doing version control that was state of the art.&lt;/p&gt;
+
+&lt;p&gt;I’m happy to report that everyone everywhere is now doing this. (if not comment below so I can write some puts… )&lt;/p&gt;
+
+&lt;p&gt;Then in the nigntes i think there was something called SSADM.&lt;/p&gt;
+
+&lt;p&gt;In the naughties  It turns out he didn’t have nukes.&lt;/p&gt;
+
+&lt;p&gt;SADDAM was bad, but it took a while for tests and ci to gain hold. (you are not deploying builds from dev machines are you? I’ve had a word with Virgil and we are creating a tenth level of hell just for you)&lt;/p&gt;
+
+&lt;p&gt;Now I’m not the entirety masrered this best practice yet which is why there is flowering wisteria randomly appearing in this post, but I do know that you and I are close…&lt;/p&gt;
+
+&lt;p&gt;Your doing CI, tests and you’re working on deployment…&lt;/p&gt;
+
+&lt;p&gt;Really aside from not doing estimates and listening to your client I think you are there.&lt;/p&gt;
+
+&lt;p&gt;Don’t beat yourself up about it -  you’re awsome, best of breed,  best practice yada yada yada. Remember fear is the mind killer.&lt;/p&gt;
+
+&lt;p&gt;You personally rock. Now make some waves and show the rest of us mear mortals how to do it….&lt;/p&gt;
+
+&lt;p&gt;And that’s not all, pretty much everyone you work with rocks too -  just each in their own way. Help them be what. They’re best at.&lt;/p&gt;
+
+&lt;p&gt;In short,&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Be awesome to one another. &lt;/li&gt;
+&lt;li&gt;Party on dudes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;/ol&amp;gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">| | You are doing it already. You're reading this. I'm willing to believe that means you care.</summary></entry><entry><title type="html">Gaia</title><link href="http://localhost:4000/2016/11/03/Gaia.html" rel="alternate" type="text/html" title="Gaia" /><published>2016-11-03T00:00:00+00:00</published><updated>2016-11-03T00:00:00+00:00</updated><id>http://localhost:4000/2016/11/03/Gaia</id><content type="html" xml:base="http://localhost:4000/2016/11/03/Gaia.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                                                                               | | Having played &amp;lt;a href=&quot;http://en.wikipedia.org/wiki/SimEarth&quot; target=&quot;_blank&quot;&amp;gt;SimEarth&amp;lt;/a&amp;gt; as a kid, I've always liked the &amp;lt;a href=&quot;http://en.wikipedia.org/wiki/Gaia_hypothesis&quot; target=&quot;_blank&quot;&amp;gt;Gaia&amp;lt;/a&amp;gt; hypothesis - I know it's just a pretty theory, and the world's a pretty place, but with Russian shipping trawlers &amp;lt;a href=&quot;http://rt.com/news/246061-russian-trawler-far-east-sinks/&quot; target=&quot;_blank&quot;&amp;gt;sinking due to pulling more than 100 tons of fish&amp;lt;/a&amp;gt; it's clear that while we've not yet outgrown this planet, we're able to make some pretty big impacts on it - all visible from space. (Cue big digger picture :-) )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Should we worry that the ice loss is increasing to such an extent that it’s detectable via changes in Earth’s gravitational field (&lt;a href=&quot;http://www.esa.int/Our_Activities/Observing_the_Earth/CryoSat/CryoSat_detects_sudden_ice_loss_in_Southern_Antarctic_Peninsula&quot; target=&quot;_blank&quot;&gt;Ice loss increases&lt;/a&gt;)?&lt;/p&gt;
+
+&lt;p&gt;Ever since watching the profound &lt;a href=&quot;http://www.imdb.com/title/tt0497116/&quot; target=&quot;_blank&quot;&gt;Inconvenient Truth&lt;/a&gt;, it’s clear that things are accelerating at a pace. - Someone recently said:&lt;/p&gt;
+
+&lt;blockquote&gt;What did exponential look like? (in the context of start-ups going bust)?
+First you start losing money slowly, and then you start losing money quickly.&lt;/blockquote&gt;
+
+&lt;p&gt;I think we’re just starting to loose Ice quickly - and at the rate that scientists are bringing in their predictions the big melt is not even going to be in our old age. Locally we’re already seeing the need for a &lt;a href=&quot;http://www.telegraph.co.uk/news/weather/10646439/The-Thames-Barrier-has-saved-London-but-is-it-time-for-TB2.html&quot; target=&quot;_blank&quot;&gt;second bigger Thames flood barrier&lt;/a&gt; (this time hopefully built in a more sensible location).&lt;/p&gt;
+
+&lt;p&gt;There’s alway going to be a few naysayers that will ignore the facts (and they’ve been helped by some consistent lobbying), but with the exception of fighting pandemics, this is probably our greatest threat.&lt;/p&gt;
+
+&lt;p&gt;We’re reacting to the threat, but it feels like we’re still behind the curve - getting on top of an exponential event is hard as demonstrated by the herculean efforts on getting on top of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Ebola_virus_epidemic_in_West_Africa&quot; target=&quot;_blank&quot;&gt;West Africa Ebola outbreak&lt;/a&gt; after not a slow start, but one that was outpaced by the disease.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;I’m hopeful that we can defeat our greatest threat, but it’s going to be a team effort. Go Team Earth!&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Having played &lt;a href=&quot;http://en.wikipedia.org/wiki/SimEarth&quot; target=&quot;_blank&quot;&gt;SimEarth&lt;/a&gt; as a kid, I’ve always liked the &lt;a href=&quot;http://en.wikipedia.org/wiki/Gaia_hypothesis&quot; target=&quot;_blank&quot;&gt;Gaia&lt;/a&gt; hypothesis - I know it’s not real, but .&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Should we worry that the ice loss is increasing to such an extent that it’s detectable via changes in Earth’s gravitational field (&lt;a href=&quot;http://www.esa.int/Our_Activities/Observing_the_Earth/CryoSat/CryoSat_detects_sudden_ice_loss_in_Southern_Antarctic_Peninsula&quot; target=&quot;_blank&quot;&gt;Ice loss increases&lt;/a&gt;)?&lt;/p&gt;
+
+&lt;p&gt;Ever since watching the profound &lt;a href=&quot;http://www.imdb.com/title/tt0497116/&quot; target=&quot;_blank&quot;&gt;Inconvenient Truth&lt;/a&gt;, it’s clear that things are accelerating at a pace. - Someone recently said:&lt;/p&gt;
+
+&lt;blockquote&gt;What did exponential look like? (in the context of start-ups going bust)?
+First you start losing money slowly, and then you start losing money quickly.&lt;/blockquote&gt;
+
+&lt;p&gt;I think we’re just starting to loose Ice quickly - and at the rate that scientists are bringing in their predictions the big melt is not even going to be in our old age. Locally we’re already seeing the need for a &lt;a href=&quot;http://www.telegraph.co.uk/news/weather/10646439/The-Thames-Barrier-has-saved-London-but-is-it-time-for-TB2.html&quot; target=&quot;_blank&quot;&gt;second bigger Thames flood barrier&lt;/a&gt; (this time hopefully built in a more sensible location).&lt;/p&gt;
+
+&lt;p&gt;There’s alway going to be a few naysayers that will ignore the facts (and they’ve been helped by some consistent lobbying), but with the exception of fighting pandemics, this is probably our greatest threat.&lt;/p&gt;</content><author><name></name></author><summary type="html">| | Having played &amp;lt;a href=&quot;http://en.wikipedia.org/wiki/SimEarth&quot; target=&quot;_blank&quot;&amp;gt;SimEarth&amp;lt;/a&amp;gt; as a kid, I've always liked the &amp;lt;a href=&quot;http://en.wikipedia.org/wiki/Gaia_hypothesis&quot; target=&quot;_blank&quot;&amp;gt;Gaia&amp;lt;/a&amp;gt; hypothesis - I know it's just a pretty theory, and the world's a pretty place, but with Russian shipping trawlers &amp;lt;a href=&quot;http://rt.com/news/246061-russian-trawler-far-east-sinks/&quot; target=&quot;_blank&quot;&amp;gt;sinking due to pulling more than 100 tons of fish&amp;lt;/a&amp;gt; it's clear that while we've not yet outgrown this planet, we're able to make some pretty big impacts on it - all visible from space. (Cue big digger picture :-) )</summary></entry><entry><title type="html">Seo</title><link href="http://localhost:4000/2016/10/20/SEO.html" rel="alternate" type="text/html" title="Seo" /><published>2016-10-20T00:00:00+01:00</published><updated>2016-10-20T00:00:00+01:00</updated><id>http://localhost:4000/2016/10/20/SEO</id><content type="html" xml:base="http://localhost:4000/2016/10/20/SEO.html">&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Search Experience Optimisation = Great Content + Consistent Citations + Backlinks + Social Scene + Rave Reviews&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;After much trawling, you soon realise that moz.com is one of the key sites for SEO. Their &lt;a title=&quot;MOZ ToolBar&quot; href=&quot;http://moz.com/tools/seo-toolbar&quot; target=&quot;_blank&quot;&gt;toolbar&lt;/a&gt; is a great way to understand the search engine rankings, and their website is a key into the whole world of SEO.&lt;/p&gt;
+
+&lt;p&gt;For a good overview of how your site is currently doing &lt;a title=&quot;Woo Rank&quot; href=&quot;https://www.woorank.com/&quot; target=&quot;_blank&quot;&gt;WooRank&lt;/a&gt; pulls all the information into one place for you. As does &lt;a title=&quot;Site analysis&quot; href=&quot;http://nibbler.silktide.com/en&quot; target=&quot;_blank&quot;&gt;Nibbler&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Moz’s &lt;a href=&quot;https://moz.com/blog/seo-cheat-sheet?utm_source=facebook&amp;amp;utm_medium=social&amp;amp;utm_content=seo_cheat_sheet&amp;amp;utm_campaign=blog_pos&quot; target=&quot;_blank&quot;&gt;SEO Cheat Sheet v3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Citations&lt;/h3&gt;
+
+&lt;p&gt;&lt;a title=&quot;Get Listed&quot; href=&quot;http://getlisted.org&quot; target=&quot;_blank&quot;&gt;GetListed&lt;/a&gt; will in the UK / US, check your NAP (name, address, phone) across all the standard sites like yelp.com etc. to ensure you are sending out a consistent message. Moz has a great&lt;a title=&quot;UK citation flows&quot; href=&quot;http://moz.com/blog/check-listings-uk-moz-local&quot; target=&quot;_blank&quot;&gt; pic showing how all the sites are interrelated&lt;/a&gt; for the UK.&lt;/p&gt;
+
+&lt;h3&gt;Backlinks&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.openlinkprofiler.org/tools&quot; target=&quot;_blank&quot;&gt;OpenLinkProfiler&lt;/a&gt; can dig up who’s linking to your site and gives an idea of whether it’s a ‘good’ or ‘bad’ link.&lt;/p&gt;
+
+&lt;p&gt;Finding and fixing broken links is both a helpful and&lt;/p&gt;
+
+&lt;h3&gt;&lt;/h3&gt;
+&lt;p&gt;|
+| After much trawling, you soon realise that moz.com is one of the key sites for SEO. Their &lt;a title=&quot;MOZ ToolBar&quot; href=&quot;http://moz.com/tools/seo-toolbar&quot; target=&quot;_blank&quot;&gt;toolbar&lt;/a&gt; is a great way to understand the search engine rankings.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                                                                                                                                         | | Moz has a great deep dive article on how they detect duplicate content. (Duplicate content = Bad for SEO).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a title=&quot;Near duplicate detection&quot; href=&quot;https://moz.com/devblog/near-duplicate-detection/&quot; target=&quot;_blank&quot;&gt;https://moz.com/devblog/near-duplicate-detection/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">  Search Experience Optimisation = Great Content + Consistent Citations + Backlinks + Social Scene + Rave Reviews</summary></entry><entry><title type="html">Branching</title><link href="http://localhost:4000/2016/10/10/Branching.html" rel="alternate" type="text/html" title="Branching" /><published>2016-10-10T00:00:00+01:00</published><updated>2016-10-10T00:00:00+01:00</updated><id>http://localhost:4000/2016/10/10/Branching</id><content type="html" xml:base="http://localhost:4000/2016/10/10/Branching.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                                   | | To branch or not to branch - it's not even a question.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Not branching prevents you taking risks, but branching isn’t free so there’s a tradeoff.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Strategy&lt;/td&gt;
+&lt;td&gt;What is it?&lt;/td&gt;
+&lt;td&gt;Advantages&lt;/td&gt;
+&lt;td&gt;Disadvantages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Branch by abstraction
+
+(aka feature flags)&lt;/td&gt;
+&lt;td&gt;Have configuration turning your branch on and off dynamically at runtime.&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+    &lt;li&gt;No merging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feature Branches&lt;/td&gt;
+&lt;td&gt; A branch for a specific story/feature, reintegrated into trunk when it's 'done'.&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+    &lt;li&gt;Team is isolated from the firehose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+    &lt;li&gt;More costly than branching by abstraction due to merge overhead.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Merge Only Release Branch&lt;/td&gt;
+&lt;td&gt;No checkins to release branches are allowed. Everything change on a release branch must be merged in.&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;No way to regress changes as everything is applied to the trunk branch before it gets into prod,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;http://nvie.com/posts/a-successful-git-branching-model/&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">| | To branch or not to branch - it's not even a question.</summary></entry><entry><title type="html">Living With Nuget</title><link href="http://localhost:4000/2016/09/25/Living-with-Nuget.html" rel="alternate" type="text/html" title="Living With Nuget" /><published>2016-09-25T00:00:00+01:00</published><updated>2016-09-25T00:00:00+01:00</updated><id>http://localhost:4000/2016/09/25/Living-with-Nuget</id><content type="html" xml:base="http://localhost:4000/2016/09/25/Living-with-Nuget.html">&lt;h1 id=&quot;living-with-nuget&quot;&gt;Living with NuGet&lt;/h1&gt;
+
+&lt;p&gt;As NuGet packages are immutable I’m really interested in using a shared package directory for NuGet as suggested here:&lt;/p&gt;
+
+&lt;p&gt;http://stackoverflow.com/questions/24617112/storing-nuget-packages-in-alternate-location-on-build-server&lt;/p&gt;
+
+&lt;p&gt;As well as time, this would save a ton of diskspace on build agents.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4&gt;Death to Dll Hell&lt;/h4&gt;
+
+&lt;p&gt;.Net assembly versioning has always been ‘tricky’. The GAC solves this problem but as many find out the GAC is wac. An alternative to mandatory strong naming of the world is to embed the version in the assembly name (which you bump the version number on each breaking change).&lt;/p&gt;
+
+&lt;p&gt;At least with Nuget this gets a bit easier when you’re then upgrading references to the next version.
+P.s. Don’t forget klondite &lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;There’s something in the air this year, first it was node.js 4 io.js and now Docker have made friends with CoreOS. The announcement of the open container foundation presents a way for everyone to play together and avoid the vendor lock-in that was the instigator of all this in the first place.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Read more about the &lt;a href=&quot;http://blog.docker.com/2015/06/open-container-project-foundation/&quot; target=&quot;_blank&quot;&gt;open container foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Tell me again why any of this matters?&lt;/h3&gt;
+
+&lt;p&gt;Why is it important to me? Far more than just an image format, the speed of it due to caching of the layers and the start up times mean that for once we can do micro end-to-end testing. I’ve always argued for building a testbase that is grounded in the business problem rather than in implementation details. What we’re aiming for is trying to test as much of the hooked up end-to-end system as possible quickly. There are naysayers (google) that say end-to-end testing is broken, and if it’s slow and brittle then I’d agree. But by being able to spin up quickly our ecosystem as a set of interacting docker containers I think we may just be able to have our cake and eat it. And by keeping the tests grounded in the business space, a broken test really means something to someone. It’s not an arbitrary broken test that may or may not be worth investigating, it’s a bonefide business use case that is broken - that’s one you can have a discussion about with everyone, not just the developers.&lt;/p&gt;
+
+&lt;p&gt;If it’s not possible to specify the business functionality that you’d like to see in code, then you’ve got bigger problems.&lt;/p&gt;
+
+&lt;p&gt;In many ways I’m arguing for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Behavior-driven_development&quot; target=&quot;_blank&quot;&gt;BDD&lt;/a&gt; given / when / then style (as this avoids the implementation being in the test), but really focusing on the top layer of the onion. By focusing on that layer you’re testing a cohesive system which should have few dependencies.&lt;/p&gt;
+
+&lt;h3&gt;Getting started&lt;/h3&gt;
+
+&lt;p&gt;Find out more at &lt;a href=&quot;https://www.docker.com/whatisdocker&quot; target=&quot;_blank&quot;&gt;Docker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See also: Convert Any Server to a Docker Container &lt;a href=&quot;https://zwischenzugs.wordpress.com/2015/05/24/convert-any-server-to-a-docker-container/&quot;&gt;https://zwischenzugs.wordpress.com/2015/05/24/convert-any-server-to-a-docker-container/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Security&lt;/h3&gt;
+
+&lt;p&gt;With Docker, like everything else being more secure requires having less attack surface area. &lt;a href=&quot;https://news.ycombinator.com/item?id=10998667&quot;&gt;Docker are now moving to a Linux distoro that fits into 5MB&lt;/a&gt;. As you can imagine there’s a lot less that an attacker can use in an OS image that small! A company called Iron.Io are leading this with &lt;a href=&quot;https://github.com/iron-io/dockers&quot;&gt;images&lt;/a&gt; for most languages.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;If that’s not enough security / simplicity, then the final leap is to merge kernel mode and user mode - i.e. run the operating system merged with the program. This is called a ‘unikernel’. (Quite a few of the unikernel guys are working for Docker so expect more to come on this front!)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;runtime.js — JavaScript library OS&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;versus Chrome.OS&lt;/p&gt;
+
+&lt;p&gt;versus Firefox.OS&lt;/p&gt;
+
+&lt;p&gt;or just a cash shell?&lt;/p&gt;</content><author><name></name></author><summary type="html">Living with NuGet</summary></entry><entry><title type="html">Feedback Loops</title><link href="http://localhost:4000/2016/08/24/Feedback-Loops.html" rel="alternate" type="text/html" title="Feedback Loops" /><published>2016-08-24T00:00:00+01:00</published><updated>2016-08-24T00:00:00+01:00</updated><id>http://localhost:4000/2016/08/24/Feedback-Loops</id><content type="html" xml:base="http://localhost:4000/2016/08/24/Feedback-Loops.html">&lt;h1 id=&quot;feedback-loops-aka-cycle-time------------------------------------------------------------------------------------------------------&quot;&gt;Feedback Loops aka Cycle Time                                                                                                      |&lt;/h1&gt;
+&lt;p&gt;| The key to Programming like running any business is about one thing only.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Feedback loops.&lt;/p&gt;
+
+&lt;p&gt;With good feedback even if you start in completely the wrong direction you will be able to correct your course early on. With good feedback loops you can take risks, and risks allow you to have simpler designs and happier customers.&lt;/p&gt;
+
+&lt;p&gt;Without good feedback you have fear. Fear of breaking what you already have, fear of building the wrong thing (create a massive specification document that is signed off and locked down to mitigate this ;-)).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.
+Frank herbert&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How tight can you make yours?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ncrunch.net&quot; target=&quot;_blank&quot;&gt;NCrunch&lt;/a&gt; and &lt;a href=&quot;http://karma-runner.github.io/0.12/index.html&quot; target=&quot;_blank&quot;&gt;Karma&lt;/a&gt; can make the TDD cycle pretty tight - the tests are running while you’re still typing! (Check out &lt;a href=&quot;https://blog.jetbrains.com/dotnet/2015/11/19/continuous-testing-in-dotcover-and-resharper-ultimate/&quot; target=&quot;_blank&quot;&gt;JetBrain’s take&lt;/a&gt; on it)&lt;/p&gt;
+
+&lt;p&gt;CI allows lots of integration tests to run. ( CD gets the results in front of a real user (human or otherwise).&lt;/p&gt;
+
+&lt;p&gt;Keep things simple - keep branching to a minimum so the above is easier (1 branch is best) - branch by abstraction instead.&lt;/p&gt;
+
+&lt;p&gt;Maybe we should be taking a step back and monitoring our development feedback curve,&lt;/p&gt;
+
+&lt;h2&gt;Dev feedback loops&lt;/h2&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;How long to incremental compile? (compile a second time when you didn't change anything )&lt;/li&gt;
+    &lt;li&gt;How long to run the quick tests?&lt;/li&gt;
+    &lt;li&gt;How long for the CI built to go green?&lt;/li&gt;
+    &lt;li&gt;How long to deploy a system to an environment ?&lt;/li&gt;
+    &lt;li&gt;How long to determine whether a deployed system works? potentially &lt;a href=&quot;http://spectrum.ieee.org/view-from-the-valley/computing/software/yahoos-engineers-move-to-coding-without-a-net&quot; target=&quot;_blank&quot;&gt;Drop independent QA&lt;/a&gt; like Yahoo! have.&lt;/li&gt;
+    &lt;li&gt;How long to ship it?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Where does Pair Programming fit in? - for me it’s at 0 as you’re constantly improving, not being lazy, staying focused and coming up with hybrid ideas that neither of you would have had on your own.&lt;/p&gt;
+
+&lt;h2&gt;Production feedback loops&lt;/h2&gt;
+
+&lt;p&gt;It doesn’t stop there, feedback from the live system is also critical - whether you are using &lt;a href=&quot;http://Splunk.com&quot; target=&quot;_blank&quot;&gt;Splunk&lt;/a&gt; or &lt;a href=&quot;http://aarvik.dk/a-bit-on-elasticsearch-logstash-kibana-the-elk-stack/&quot; target=&quot;_blank&quot;&gt;ELK&lt;/a&gt;, to collect that data allows you to see how a new system reacts compared with the previous version.&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Health checks - are the power on self tests and heartbeats working?&lt;/li&gt;
+    &lt;li&gt;Memory,  disk access,  processor, exceptions, disk usage - does the uat version have a better profile than the current prod? How does one hour / day / week differ from another?&lt;/li&gt;
+    &lt;li&gt;Performance bottlenecks - where's the current kink in the system?&lt;/li&gt;
+    &lt;li&gt;Capacity and trending - do you need more hardware / disk space?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;UX&lt;/h2&gt;
+
+&lt;p&gt;Having a good user experience when using a website / app is all about getting good timely feedback - the difference between half a second and a full second can make all the difference in terms of having a flowing experience.&lt;/p&gt;
+
+&lt;h2&gt;Personal feedback loops&lt;/h2&gt;
+
+&lt;p&gt;I’m not sure all of these quite classify as feedback loops (except perhaps to make the processes more streamlined for the next guy that joins)&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;How fast can a new person get permission and installs to work on the project?&lt;/li&gt;
+    &lt;li&gt;How quickly can new joiners become productive?&lt;/li&gt;
+    &lt;li&gt;How often do you have a retrospective?&lt;/li&gt;
+    &lt;li&gt;Statutory Performance appraisals (too long a loop!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;|&lt;/p&gt;
+
+&lt;h1 id=&quot;zoning----minimise-distractions&quot;&gt;Zoning -  Minimise Distractions&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                                                | | Minimise Distractions Pair KanBan Listen to music - Don't listen to other peoples phone conferences! Stay in the zone - if things are going well, keep the ball rolling as long as possible!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When not to be focused?&lt;/p&gt;
+
+&lt;p&gt;If you are stuck, let your unconscious mind work on the problem while you do something completely different (whether that’s helping a colleague or having a gym session).&lt;/p&gt;
+
+&lt;p&gt;Solving problems the hard way
+You’re going to get stuck on a gottcha, and you can keep banging your head on the brick wall until it gives way and you figure out what the slight tweak was that makes it all work. This can easily take days if you’re not careful!&lt;/p&gt;
+
+&lt;p&gt;Solving problems the smart way
+Rather than let the gotch turn into a GumptionTrap,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;there’s almost always a way around your problem if you back up a bit, in fact there’s usually a large set of alternatives you could try (some of these will be better than what you were proposing to do anyway). By backing up and solving the problem a (potentially sub-optimal) way it keeps your momentum going.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The great news is that quite often (days / weeks / months) later you’ll stumble on what you were doing wrong originally and (if that way was better than the workaround) you’ll be able to switch back to it. Asynchronous gotcha optimisation?&lt;/p&gt;
+
+&lt;p&gt;Either way, cache your experience - leave a trail for you or others to follow so if they do walk into the same problem later on (whether as a comment or a stack overflow answer) they’ll fix it sooner…&lt;/p&gt;</content><author><name></name></author><summary type="html">Feedback Loops aka Cycle Time | | The key to Programming like running any business is about one thing only.</summary></entry></feed>

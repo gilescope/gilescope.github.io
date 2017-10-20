@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Software Archiology | Refactoring development</title>
+<meta property="og:title" content="Software Archiology" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="| | &lt;strong&gt;Markdown&lt;/strong&gt;" />
+<meta property="og:description" content="| | &lt;strong&gt;Markdown&lt;/strong&gt;" />
+<link rel="canonical" href="http://localhost:4000/2016/08/12/Software-Archiology.html" />
+<meta property="og:url" content="http://localhost:4000/2016/08/12/Software-Archiology.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-08-12T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"| | &lt;strong&gt;Markdown&lt;/strong&gt;","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/08/12/Software-Archiology.html","publisher":null,"image":null,"headline":"Software Archiology","dateModified":"2016-08-12T00:00:00+01:00","datePublished":"2016-08-12T00:00:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/08/12/Software-Archiology.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <div class="highlighter-rouge"><pre class="highlight"><code>                                                                                                  | | &lt;strong&gt;Markdown&lt;/strong&gt;
+</code></pre>
+</div>
+
+<p>Rust uses Markdown for it’s documentation. Github goes further by allowing references to pull requests, mentions and issues.</p>
+
+<p> </p>
+
+<p><strong>Software Archeology Rule 1: KISS</strong></p>
+
+<p>Ivan Moor’s post on <a href="http://puttingtheteaintoteam.blogspot.co.uk/2014/02/making-life-easier-for-future-software.html">software archeology</a> has kept me thinking. Essentially they’re suggesting a long lived project needs to contain in its source control system:</p>
+
+<ul>
+    <li>Code</li>
+    <li>Config</li>
+    <li>Wiki</li>
+    <li>Issues</li>
+    <li>Dependencies.</li>
+</ul>
+
+<p>With all of these key things in the same place, nothing will get lost. If they’re separate and upgraded / changed every 3-4 years to the next newfangled thing, then things get lost.</p>
+
+<p><strong>Playtime</strong></p>
+
+<p><a href="http://getgrav.org/">Grav</a> is a markdown flat file CMS that could happily live in your source repository.</p>
+
+<p>Next you need to ditch JIRA and represent your tasklist in markdown:</p>
+
+<ul>
+    <li>[ ] Todo Task1</li>
+    <li>[x] Done Task 2</li>
+</ul>
+
+<p>If you need to get fancier than that, you can have one page per issue, with your choice of metadata at the head of the page (in markdown ‘definition’ format).</p>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

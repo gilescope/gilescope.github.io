@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Clean Code | Refactoring development</title>
+<meta property="og:title" content="Clean Code" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Clean Code I’ve been reading some takes on tidying your house. " />
+<meta property="og:description" content="Clean Code I’ve been reading some takes on tidying your house. " />
+<link rel="canonical" href="http://localhost:4000/2016/04/10/Clean-Code.html" />
+<meta property="og:url" content="http://localhost:4000/2016/04/10/Clean-Code.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-04-10T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Clean Code I’ve been reading some takes on tidying your house. ","author":null,"@type":"BlogPosting","url":"http://localhost:4000/2016/04/10/Clean-Code.html","publisher":null,"image":null,"headline":"Clean Code","dateModified":"2016-04-10T00:00:00+01:00","datePublished":"2016-04-10T00:00:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/04/10/Clean-Code.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="clean-code">Clean Code</h1>
+<p>I’ve been reading some takes on <a href="http://www.amazon.co.uk/gp/aw/d/B00I0C46BO/ref=tmm_kin_title_0">tidying your house</a>. </p>
+
+<p>The gist is:</p>
+
+<ol>
+    <li>Decided if you need it</li>
+    <li>Decide where to put it.</li>
+</ol>
+
+<p>The twist is that you should only keep things that bring you joy - i.e. Decide what to keep not what to chuck. Everything else can go. I’m wondering how this applies to code bases. </p>
+
+<p>One of the tricks to throwing out sentimental things is to say thank you for the use or insight they have given you before letting them go. This has direct parallels - we should happily delete the proof of concepts that have served their purpose.
+<a href="https://blog.8thlight.com/uncle-bob/2014/04/03/Code-Hoarders.html">Uncle Bob</a> touches on this subject, but restates the problem - mess is bad, don’t live with mess.
+<b>How</b></p>
+
+<p>We have lived with mess a long time, and tried tidying a room at a time (project by project) but it keeps bouncing back to being messy. </p>
+
+<p>The suggestion is to clean category by category across the whole house. Only by doing this can you truly see the full range of items you have and decide which things you love and which have to go.  </p>
+
+<p>To me this is suggesting that you crosscut all your projects and see exactly how many messaging systems / databases / authentication systems etc you have. Then decide which to keep, and then decom the others. By achieving consistency across the board not only will you feng shui be improved, but more likely than not the consistency will be maintained. You also are less likely to fall into the trap of optimising a subset of the full problem.</p>
+
+<p>The other tip was to start with the least controversial categories first. Get better at it before tackling the trickier bits.</p>
+
+<h1 id="zombi-code">Zombi Code</h1>
+
+<p>They call it ‘dead code’ if it’s not used anymore. One would think that it can’t 
+be harmful if it’s not used but far from it. There’s been companies that have been put out of business by
+accidentally re-referencing dead code. It’s rare though.</p>
+
+<p>A far more compelling reason for deleting the stuff is that if you
+don’t, someone else will maintain it. If they’re upgrading X they 
+will find every reference to X and make the appropriate conversions
+usually without having the time to consider if any parts of the code
+base are not used. Don’t pay the dead code tax, delete your code and 
+stop it coming back to life.</p>
+
+<p>Don’t bite off more than you can chew, but good luck!</p>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

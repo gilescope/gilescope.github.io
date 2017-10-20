@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=53c6e21be6b920c28fbdc08f9928b62c08e99f5e">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Rust FTW | Refactoring development</title>
+<meta property="og:title" content="Rust FTW" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Rust" />
+<meta property="og:description" content="Rust" />
+<link rel="canonical" href="http://localhost:4000/languages/2017/05/15/Rust-FTW.html" />
+<meta property="og:url" content="http://localhost:4000/languages/2017/05/15/Rust-FTW.html" />
+<meta property="og:site_name" content="Refactoring development" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-15T17:29:24+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Rust","author":null,"@type":"BlogPosting","url":"http://localhost:4000/languages/2017/05/15/Rust-FTW.html","publisher":null,"image":null,"headline":"Rust FTW","dateModified":"2017-05-15T17:29:24+01:00","datePublished":"2017-05-15T17:29:24+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/languages/2017/05/15/Rust-FTW.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Refactoring development</h1>
+        <h2>Ramblings from the trenches...
+</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/gilescope/gilescope.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1 id="rust">Rust</h1>
+
+<p>It seems a long time ago now, but I recall the reasons why I first really took to Java. It was a safe place to be, with no operator overloading, implicit casts and checked exceptions. It is a far cry from the shotgun that is C++ (very easy to blow your own legs off). - For example in Java (unlike C#) you always knew that something on the left of the ‘.’ was null when you got a null pointer exception. (Rust goes one step further by not having a ‘null’.)</p>
+
+<p>It was an easy language to reason with - few surprises. In a business context where someone’s taken the liberty to pre-write a million lines of code for you, few surprises counts for a lot.</p>
+
+<p>Or at least Java was an easy language to reason with until the classloaders started loading classloaders…</p>
+
+<p>Safety seems baked into the <a class="zem_slink" title="Rust (programming language)" href="http://en.wikipedia.org/wiki/Rust_%28programming_language%29" target="_blank" rel="wikipedia">Rust language</a>, from the lack of C-style for (int i=0; i&lt;…;i++) loops, to every variable being owned by something. Checked exceptions make another appearance (though in a more pattern matching guise). Variables are immutable by default but when mutable only one thread can alter them at any one time. The list goes on and on of little tweaks here and there that will add up to more robust (and faster) code being written.</p>
+
+<p>Rust was meant to be just a systems programming language but I suspect they’re going to wildly overshoot the mark.</p>
+
+<p>The cost of maintaining a business’s software keeps becoming a greater percentage of the business’s overall costs - the software is the business for many. As such, maintainable code is cheaper. Cost wise a Rust codebase seems a cheaper codebase to maintain.</p>
+
+<p>Pre-rust, I used to just call a function with some arguments. Post-rust I’m now forced to consider whether I want to send over a mutable or immutable version of each argument. There is a mental leap that needs to happen to code in Rust, but this is a one-off cost amortisable away.</p>
+
+<p> </p>
+
+<h3>Compile time Test Coverage</h3>
+
+<p>This one is really neat, - something they really should call out as a ‘feature’ of Rust. When you run ‘cargo test’ to run your tests, it first compiles the code. Nothing special here you might think, but main() is presumed to not exist and your tests are presumed to be called. This means if you’ve not tested a chunk of code then it gets picked up by the #[warn(dead_code)] checker.</p>
+
+<p>How beautiful is that? compile time test coverage. Sweet.</p>
+
+<p>(Oh, and assertions failing somehow show a great failure message rather than just assertion failed at this line number.)</p>
+
+<h3>Rust FTW</h3>
+
+<p>Right now, Rust is probably the safest most efficient language to code in. It’s a fairly high level language with few compromises. If you have 100-10000+ developers in your company policing threadsafe code in c++/java/c# is pretty much impossible - you have to fall back on many processes. With Rust in an enterprise environment threadsafe code is a much more achievable goal.</p>
+
+<p>I love the phrase ‘<a href="https://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html">fearless concurrency</a>’ - in a multi-core world, this is the language we need. History I suspect will show Rust as being the first major breakthrough in language design of the 21st century.</p>
+
+<p>There’s always a catch… in Rust’s case it is a steep learning curve. There’s learning the syntax and
+the libraries. This is much like the learning cost of Java, Python or C#. But then
+if Rust was just like Java or Python then the world would not have moved forward.</p>
+
+<p>The second half of learning Rust is understanding the language’s constraints 
+and re-learning all the patterns of programming. I suspect Rust is easier to teach to a
+fresh programmer than someone who has coded for years as it does require you to think differently and for me at 
+least that takes time.</p>
+
+<h3>Getting Started</h3>
+
+<p>So now that I’ve badgered you into submission, here’s some great ways to get stuck in:</p>
+
+<ul>
+    <li><a href="https://intellij-rust.github.io/">https://intellij-rust.github.io/</a> - I'd suggest you use this plugin with CLion ideally but any jetbrains IDE should work. It now has a debugger that works on OSX. Every week it gets more awesome.</li>
+    <li><a href="http://rustbyexample.com/">http://rustbyexample.com/</a> is an excellent guide as well as the language reference.</li>
+    <li><a href="https://www.youtube.com/watch?v=HqxjwXqIPmI">https://www.youtube.com/watch?v=HqxjwXqIPmI</a> - The Rust fasttrack series are excellent ways to help understand lifetimes, mutability and borrowing - sometimes reading isn't enough.</li>
+    <li><a href="https://github.com/ctjhoa/rust-learning">https://github.com/ctjhoa/rust-learning</a> - curated guide to the best articles on the web about Rust.</li>
+</ul>
+
+<h3>Lessons learned</h3>
+
+<p>I am by no means great at coding rust, I’m still on that learning curve, but hopefully some of the things I’ve noticed may ease your learning of rust. So while these tips maybe helpful, there’s probably nicer, even more rustonic ways of doing things.</p>
+
+<h4>Options</h4>
+
+<p>Option&lt;T&gt; is used a lot in rust as an alternative to a nullable type. To get at the value you can match against it:</p>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="k">match</span> <span class="n">my_option</span> <span class="p">{</span>
+    <span class="nf">Some</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="p">{</span><span class="nd">println!</span><span class="p">(</span><span class="s">"{:?}"</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span> <span class="p">},</span>
+    <span class="nb">None</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="p">{}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>This is great, but a little verbose. It turns out you can do pattern matching <a href="https://doc.rust-lang.org/book/if-let.html">ifs</a> like this:</p>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="k">if</span> <span class="k">let</span> <span class="nf">Some</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="o">=</span> <span class="n">my_option</span> <span class="p">{</span>
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"{:?}"</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Which is a lot neater if you only care about one branch.</p>
+
+<h4>Making friends with the compiler</h4>
+
+<p>If you’ve come from a manage language the compiler/borrowchecker can be a little angry at first. The simplest rule to not annoy the compiler is this: pass all function arguments by reference, return by value.</p>
+
+<p>I.e.</p>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="k">fn</span> <span class="nf">my_compiler_friendly_function</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="n">B</span><span class="p">)</span> <span class="o">-&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="n">C</span> <span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nf">my_compiler_friendly_function</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span></code></pre></figure>
+
+<p>In general the above is what you want to do - you’re passing non-mutable references into the function which means that you can use a and b after the function call. You want to not return a reference because if you do you would need to let the compiler know how long it’s going to live for - i.e. you’d need to introduce an explicit lifetime parameter.</p>
+
+<p>The above is just a way to simplify getting started with rust - there’s a lot to learn and by keeping to the above you can learn a lot of rust without having to also concentrate as much on lifetimes.</p>
+
+<p>The same applies to print also:</p>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="k">let</span> <span class="n">world</span> <span class="o">=</span> <span class="nn">String</span><span class="p">::</span><span class="nf">new</span><span class="p">(</span><span class="s">"world"</span><span class="p">)</span>
+<span class="nf">println</span><span class="p">(</span><span class="s">"Hello {}"</span><span class="p">,</span> <span class="n">world</span><span class="p">)</span>
+<span class="nf">println</span><span class="p">(</span><span class="s">"Hello {}"</span><span class="p">,</span> <span class="n">world</span><span class="p">)</span></code></pre></figure>
+
+<p>You can’t do this as by passing without a reference to println it’s gobbling up ownership of the world String. You want to do println(“Hello {}”, &amp;world) - almost always for prints pass by reference.</p>
+
+<h2>Rust on OSX</h2>
+
+<p>OSX is the poor man’s relation to Rust on Windows and Linux. They get all sorts of newfangled things like debuggers and line numbers in the stack trace. Alas on OSX lldb’s frame variable command returns nothing at the moment and line numbers on OSX stacktraces are for wimps.</p>
+
+<p>So to celebrate <a href="https://blog.rust-lang.org/2017/05/15/rust-at-two-years.html">Rust turning two</a> today I’ve written my first macro using an excellent tutorial on <a href="https://danielkeep.github.io/practical-intro-to-macros.html">macro_rules!</a></p>
+
+<figure class="highlight"><pre><code class="language-rust" data-lang="rust"><span class="nd">macro_rules!</span> <span class="k">log</span><span class="p">(</span>
+    <span class="p">(</span><span class="nv">$first:expr</span><span class="p">)</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="p">{</span> <span class="p">{</span>
+        <span class="nd">println!</span><span class="p">(</span><span class="nd">concat!</span><span class="p">(</span><span class="s">"{}:{} "</span><span class="p">,</span> <span class="nv">$first</span><span class="p">),</span> <span class="nd">file!</span><span class="p">(),</span> <span class="nd">line!</span><span class="p">());</span>
+    <span class="p">}</span> <span class="p">};</span>
+    <span class="p">(</span><span class="nv">$first:expr</span><span class="p">,</span> <span class="nv">$</span><span class="p">(</span><span class="nv">$arg:expr</span><span class="p">),</span><span class="o">*</span><span class="p">)</span> <span class="o">=&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="p">{</span> <span class="p">{</span>
+        <span class="nd">println!</span><span class="p">(</span><span class="nd">concat!</span><span class="p">(</span><span class="s">"{}:{} "</span><span class="p">,</span> <span class="nv">$first</span><span class="p">),</span> <span class="nd">file!</span><span class="p">(),</span> <span class="nd">line!</span><span class="p">(),</span> <span class="nv">$</span><span class="p">(</span><span class="nv">$arg</span><span class="p">),</span><span class="o">*</span><span class="p">);</span>
+    <span class="p">}</span> <span class="p">}</span>
+<span class="p">);</span></code></pre></figure>
+
+<p>Now the above may not look pretty but in place of println!() it will 
+tell you where each log message was output. And hyperlinked to the 
+file location in intellirust!</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Could use location of matching rust macro as a structural search and replace in intellirust</td>
+    </tr>
+  </tbody>
+</table>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>

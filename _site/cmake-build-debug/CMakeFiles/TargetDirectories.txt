@@ -1,0 +1,3 @@
+/Users/gilescope/gilescope.github.io/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gilescope/gilescope.github.io/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gilescope/gilescope.github.io/cmake-build-debug/CMakeFiles/gilescope_github_io.dir
