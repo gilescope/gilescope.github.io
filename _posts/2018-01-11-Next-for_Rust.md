@@ -9,6 +9,8 @@ categories: rust
 
 There's been a lot of good solid progress last year. For me one of the big things was line numbers on the stacktraces in OSX. My prediction for 2018 is that Rust on WebAssembly rather than being a distracting side-show will catch the eye of the mainstream JavaScript community. (Getting the sourcemaps working was a nice touch btw.) 
 
+The Intelli Rust plugin has made huge gains over the year and is starting to push the envolope on what IDEs are capable of - great to see new ideas and innovation in the IDE space. We're getting past playing catchup and starting to push the boundries. Alas without better debugging support in the compiler and LLDB I think they will be limited in what they can do to improve the debug experience (more on this later).
+
 ## Consolidation:
 
 With NLL (non-lexical-lifetimes), procedural macros, incremental compilation and a few other big changes landing in the Rust language it's important that we concentrate on finishing things rather than starting new RFCs. The run rate has been swift as these changes have been integrated but it's time to let the language settle so that these can stabilise, people can really build on-top of them and we can then see what should be changed next. 
