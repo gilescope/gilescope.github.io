@@ -21,11 +21,12 @@ Private repositories (native support in JFrog's artifactory) are one of the next
 
 In many ways Rust is an easy low level language to use, but compared to Java/C# the debugging experiance is well below par.
  
-	- We need both a robust debugger that attaches to a process every time 
+	- We need a debugger that attaches to a process every time 
 		- (not just half the time). 
 	- We need to be able to set the next instruction pointer. 
 	- We need to have first class debuging symbols for LLDB: 
-		- Rust compiler generate Rust metadata not C/C++ metadata for LLDB. 
+		- Rust compiler to generate Rust metadata for LLDB 
+			- (Currently generates C/C++ metadata). 
 		- The LLDB debuggger needs to visualise:
 			- Strings and &str
 			- Vec
