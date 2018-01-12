@@ -15,15 +15,23 @@ With NLL (non-lexical-lifetimes), procedural macros, incremental compilation and
 
 ## Enterprise:
 
-Private repositories (native support in JFrog's artifactory) are one of the next stepping stones. As too is rebuilding the test runner so that it can support various CI tools out of the box. We've long past the point where everyone who wanted CI was expected to roll their own CI setup. There should be some standard apporches so that private CIs (E.g. TemaCity) and public CIs (E.g. Travis)  work out of the box.
+Private repositories (native support in JFrog's artifactory) are one of the next stepping stones. As too is rebuilding the test runner so that it can support various CI tools out of the box. We've long past the point where everyone who wanted CI was expected to roll their own CI setup. There should be some standard apporches so that private CIs (E.g. TeamCity) work out of thr box just like the public CIs do (E.g. Travis).
 
 ## Debugging:
 
 In many ways Rust is an easy low level language to use, but compared to Java/C# the debugging experiance is well below par.
  
-	- We need both a robust debugger that manages to attach to the process every time (not just half the time). 
+	- We need both a robust debugger that attaches to a process every time 
+		- (not just half the time). 
 	- We need to be able to set the next instruction pointer. 
-	- Most importantly of all we need to have first class debuging symbols for LLDB. I.e. Rust generating specific rather than C/C++ metadata to LLDB when compiling. The LLDB debuggger needs to be enhanced so that we can see things like Strings, HashMaps and generic types - ideally making use of the Debug trait as a generic print mechanism. 
+	- Most importantly of all we need to have first class debuging symbols for LLDB. 
+		- I.e. Rust generating specific rather than C/C++ metadata to LLDB when compiling. 
+		- The LLDB debuggger needs to be enhanced so we can visualise:
+			- Strings and &str
+			- Vec
+			- HashMaps 
+			- generic types 
+		- ideally making use of the Debug trait as a generic print mechanism. 
 	- We need to get the lldb repl working with Rust.
 
 ## Error handling:
