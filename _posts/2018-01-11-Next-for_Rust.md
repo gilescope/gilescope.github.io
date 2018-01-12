@@ -11,15 +11,19 @@ There's been a lot of good solid progress last year. For me one of the big thing
 
 ## Consolidation:
 
-With NLL (non-lexical-lifetimes), procedural macros, incremental compilation and a few other big changes landing in the Rust language it's important that we concentrate on finishing things rather than starting new RFCs. The run rate has been swift as these changes have been integrated but it's time to let the language settle so that these can stabilise, people can really build on-top of them and we can then see what should be changed next. It feels like we're getting towards the end of an epoc... and to that end we should be trying to ensure that futures (Tokio) and Hyper have stable 1.0 releases. People should not have to rely on nightly builds of the compiler (esp. for production environments).
+With NLL (non-lexical-lifetimes), procedural macros, incremental compilation and a few other big changes landing in the Rust language it's important that we concentrate on finishing things rather than starting new RFCs. The run rate has been swift as these changes have been integrated but it's time to let the language settle so that these can stabilise, people can really build on-top of them and we can then see what should be changed next. 
+
+It feels like we're getting towards the end of an epoc... and to that end we should be trying to ensure that futures (Tokio) and Hyper have stable 1.0 releases. People should not have to rely on nightly builds of the compiler (esp. for production environments).
 
 ## Enterprise:
 
-Private repositories (native support in JFrog's artifactory) are one of the next stepping stones. As too is rebuilding the test runner so that it can support various CI tools out of the box. We've long past the point where everyone who wanted CI was expected to roll their own CI setup. There should be some standard apporches so that private CIs (E.g. TeamCity) work out of thr box just like the public CIs do (E.g. Travis).
+Private repositories (native support in JFrog's artifactory) are one of the next stepping stones. As too is rebuilding the test runner so that it can support various CI tools out of the box. 
+
+We've long past the point where everyone who wanted CI was expected to roll their own CI setup. There should be some standard apporches so that private CIs (E.g. TeamCity) work out of thr box just like the public CIs do (E.g. Travis).
 
 ## Debugging:
 
-In many ways Rust is an easy low level language to use, but compared to Java/C# the debugging experiance is well below par.
+In many ways Rust is an easy low level language to use, but compared to Java/C# the debugging experience is well below par.
  
 	- We need a debugger that attaches to a process every time 
 		- (not just half the time). 
@@ -38,6 +42,7 @@ In many ways Rust is an easy low level language to use, but compared to Java/C# 
 ## Error handling:
 
 I think the Failure crate is a good step forwards - getting error handling right makes a world of difference to development speed.
+
 panic! should give file and line numbers. Let's tee this up as one of the first things in the next epoc.
 
 # Community:
