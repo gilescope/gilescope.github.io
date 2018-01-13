@@ -41,6 +41,8 @@ In many ways Rust is an easy low level language to use, but compared to Java/C# 
 		- Use the Debug trait as a generic print mechanism. 
 	- We need to get the lldb repl working with Rust.
 
+And of course we need the above in Windows and OSX as well as Linux.
+
 ## Error handling:
 
 I think the Failure crate is a good step forwards - getting error handling right makes a world of difference to development speed.
