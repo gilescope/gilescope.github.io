@@ -39,6 +39,7 @@ In many ways Rust is an easy low level language to use, but compared to Java/C# 
 			- HashMaps 
 			- generic types 
 		- Use the Debug trait as a generic print mechanism. 
+	- When an unwind happens we need to be able to break there.
 	- We need to get the lldb repl working with Rust.
 
 And of course we need the above in Windows and OSX as well as Linux.
@@ -48,6 +49,10 @@ And of course we need the above in Windows and OSX as well as Linux.
 I think the Failure crate is a good step forwards - getting error handling right makes a world of difference to development speed.
 
 panic! should give file and line numbers. Let's tee this up as one of the first things in the next epoc.
+
+# Ease of Use:
+
+I think the docs should be updated to introduce the Entry api for HashMaps much sooner. It's really hard as a beginner to work with HashMaps while not knowing about the entry api. One easily gets tied up in knots as soon as a HashMap meets a loop. The entry API seems to avert most of the problems.
 
 # Community:
 
