@@ -13,15 +13,15 @@ IntelliJ CLion is still leading the way for advanced refactoring and polish, but
 
 (Yes this works _on all major OSes_.)
 
-You will need the latest 1.41 VSCode Code.
+You will need the latest 1.41 VSCode Code. You will _not_ need RLS - Rust's first generation VSCode plugin.
     
-Rust analyser is now doing [weekly releases](https://github.com/rust-analyzer/rust-analyze/releases) - you can read all about the [latest changes](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html) (At some point we'll get Rust Analyzer put on the VSCode marketplace)
+Rust analyser is now doing [weekly releases](https://github.com/rust-analyzer/rust-analyzer/releases) - you can read all about the [latest changes](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html) (At some point we'll get Rust Analyzer put on the VSCode marketplace)
 
 For now you'll need to save down the server somewhere and download the Rust Analyser vsix file and install it into VSCode by clicking on extensions and the clicking on '...' at the top and then click on "Install from VSIX" 
 
 In the preferences under Extensions, Rust Analyzer 
-   - Set the path to the rust analyser server. 
-   - I would turn off 'Enhanced Typing' for now as it quite often stops you pressing the enter key. 
+   - Set the path to the rust analyser server (`rust-analyzer.raLspServerPath: ""`). 
+   - I would turn off enhanced typing (`rust-analyzer.enableEnhancedTyping: false`) for now as it quite often stops you pressing the enter key. 
 
 
 
