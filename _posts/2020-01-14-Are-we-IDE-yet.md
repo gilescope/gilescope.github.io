@@ -7,6 +7,13 @@ categories: rust
 
 # Rust 2020: Are we IDE yet?
 
+
+UPDATE:
+
+I've bundled the below into a one click extension pack for Visual Studio Code:
+[rust-in-peace](https://marketplace.visuaalstudio.com/items?itemName=gilescope.rust-in-peace)
+
+---
 IntelliJ CLion is still leading the way for advanced refactoring and polish, but as you may know I've been banging on about the need for decent debuggers for Rust for years. I'm happy to say in 2020 that a good debugging experience is now available through VSCode. (Hopefully Clion will raise their debugging game)
 
 ## OSX / Linux / Windows Instructions
