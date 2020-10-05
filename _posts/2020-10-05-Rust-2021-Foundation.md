@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Rustt 2021: Foundation"
+title:  "Rust 2021: Foundation"
 date:   2020-10-05 00:00:00 +0000
 categories: rust
 ---
