@@ -33,7 +33,7 @@ I work in the finance industry and we use Rust and Python as our main languages.
 
    * Don't compile unless you really have to (avoid cascades of recompilation) - mtimes independent builds that can be 'fresh' even if we're using docker layers or we've copied the files from somewhere else.
 
-   * sccache doesn't cache enough of the crates to be worthwhile - we need it to understand more of rustc's arguments / find some way to be more aggressive at caching?
+   * `sccache` doesn't cache enough of the crates to be worthwhile - we need it to understand more of rustc's arguments / find some way to be more aggressive at caching?
 
    * CraneLift gets enough performance optimizations that we could use it. For our tests to run quickly we need them to run in release mode. (I hear this is a long shot at the moment as it doesn't do any inlining.
 
@@ -46,7 +46,7 @@ I work in the finance industry and we use Rust and Python as our main languages.
 
    * Commands like git has to be able to get/set config entries from scripts.
 
-   * .cargo/config doesn't allow environment variables to be embedded within it and those to be resolved. We can set CARGO_* env vars as a workaround, but It would be nice to have.
+   * `.cargo/config` doesn't allow environment variables to be embedded within it and those to be resolved. We can set CARGO_* env vars as a workaround, but It would be nice to have.
 
 ## Ecosystem:
 
