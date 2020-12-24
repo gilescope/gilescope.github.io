@@ -39,7 +39,7 @@ The only way to be good enough to mentor people is to mentor people - you will q
    * You don't need to be an expert - there are common notes on what to check for and you can look at other past solutions.
    * You just need to be able to look at code and make (non contentious) suggestions as to how it could be simplified. (If you can't see any way it can be simplified there's a 'skip' button - or if you're confident there's not much they could improve on then congratulate them..)
 
-Once you've attempted a few of the exercisess you should feel confident enough to mentor the beginning exercises and pay it forward.
+Once you've attempted a few of the exercises you should feel confident enough to mentor the beginning exercises and pay it forward.
 
 (Exercism is a not for profit open source collabrative affair)
 
