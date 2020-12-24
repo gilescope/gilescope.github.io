@@ -7,7 +7,7 @@ categories: rust
 
 # Exercism.io needs You!
 
-So the reason I've held back on mentoring in rust for so long is that I've thought that I'm not an expert and that there's better rust programmers out there than me. And while this is true it turns out that in the land of the blind, the man with one eye is king.
+So the reason I've held back on mentoring at (exercism)[https://exercism.io/] in rust for so long is that I've thought that I'm not an expert and that there's better rust programmers out there than me. And while this is true it turns out that in the land of the blind, the man with one eye is king.
 
 If you can code in a language and want to improve I heartily recommend mentoring via exercism as a way to improve. It helps the people being mentored and you get better.
 
