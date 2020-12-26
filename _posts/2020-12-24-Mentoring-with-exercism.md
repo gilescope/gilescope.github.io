@@ -11,21 +11,21 @@ So the reason I've held back on mentoring at [exercism.io](https://exercism.io/)
 
 If you can code in a language and want to improve I heartily recommend mentoring via exercism as a way to improve. It helps the people being mentored and you get better.
 
-Actually trying exercism was the best thing that happend to me in 2020 - I've learned so much as a student and a mentor. There's no subsitute to people reviewing your code and suggesting ways it could be more idiomatic when learning a language. Hands down it's a great way to learn a programming language, but it depends on there being enough people on the other side to mentor.
+Actually trying exercism was the best thing that happened to me in 2020 - I've learned so much as a student and a mentor. There's no substitute to people reviewing your code and suggesting ways it could be more idiomatic when learning a language. Hands down it's a great way to learn a programming language, but it depends on there being enough people on the other side to mentor.
 
 ## Why mentor:
 
    * It's fun!
-   * It's an oppotunity to be nice to people!
+   * It's an opportunity to be nice to people!
    * People say thank you for mentoring them and give you testimonials which could help with job interviews.
    * It's a kind thing to do.
    * Your speed of reading code will improve.
-   * You will see lots of differtent ways to solve the same problem (that you won't have expected).
+   * You will see lots of different ways to solve the same problem (that you won't have expected).
    * You will get good at helping people untangle themselves to get to a simpler solution.
    * You will pick up tips from students on ways to use the language that you'd not think of.
    * When researching some mentoring point you'll learn more.
    * Exercism _can't_ have too many mentors.
-   * You're not on your own - there's a slack channel for each languages' mentors to chat (Warning: you might make friends).
+   * You're not on your own - there's a slack channel for each language's mentors to chat (Warning: you might make friends).
    * Whether you do some sporadically, or do a few each week it's all helping people - you can scale up or down as fits your current life. An hour a week would be awesome!
 
 ## Imposter Syndrome! But I'm not good enough
@@ -41,6 +41,6 @@ The only way to be good enough to mentor people is to mentor people - you will q
 
 Once you've attempted a few of the exercises you should feel confident enough to mentor the beginning exercises and pay it forward.
 
-(Exercism is a not for profit open source collabrative affair)
+(Exercism is a not for profit open source collaberative affair)
 
-(*Warning*: Mentoring on one track may make you want to try learning some other tracks and in some extream cases has casused people to go back to uni to study programming theory)
+(*Warning*: Mentoring on one track may make you want to try learning some other tracks and in some extreme cases has caused people to go back to uni to study programming theory)
