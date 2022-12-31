@@ -30,7 +30,7 @@ Given all that it's almost crazy to suggst that this next year could be bigger, 
 
 Here's the top 10 things I am looking forward to in the year:
 
-1. Polkadot's Black Swan. Parachains widen what's viabl to achieve on-chain. We are going to see 'standard' things that other chains have already built, but it's the wierd and wonderful that no one will be expecting that will get this top slot.
+1. Polkadot's Black Swan. Parachains widen what's viable to achieve on-chain. We are going to see 'standard' things that other chains have already built, but it's the wierd and wonderful that no one will be expecting that will get this top slot.
 
 1. The ETH merge. Crypto becomes credibly greener (alas haters still gonna hate - insert FUD here). Some people might think that this triple-halvening event will have some effect on the eth price. You may very well think that; I couldn't possibly comment. Markets will also be 'surprised' that eth validators seem to 'overnight' be suddenly more lucrative.
 

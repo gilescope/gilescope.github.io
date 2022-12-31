@@ -8,7 +8,7 @@ THE QUICKENING
 
 It starts slow.
 
-A wallet here, a wallet there. Maybe somehow you get to but a cup of coffee with bitcoin. After quite a few years, bitcoin has withstood the challenges of the world and suggested that just maybe it is unhackable in the small. China could still pull the plug, but what we see with these decentralised networks is that every attempt to censor and shut them down winds up forcing them towards a path of being even stronger. China with the closure of exchanges spurs development of decentralised exchanges.
+A wallet here, a wallet there. Maybe somehow you get to buy a cup of coffee with bitcoin. After quite a few years, bitcoin has withstood the challenges of the world and suggested that just maybe it is unhackable in the small. China could still pull the plug, but what we see with these decentralised networks is that every attempt to censor and shut them down winds up forcing them towards a path of being even stronger. China with the closure of exchanges spurs development of decentralised exchanges.
 
 I think it was wonderful to see IPFS used in anger for the Catelonia referendum. A great demonstration of why even in first world countries we need to be able to have free speech.
 
