@@ -1,8 +1,13 @@
-                                                                       |
-| To branch or not to branch - it's not even a question.
+---
+layout: default
+title: "Branching"
+date: 2016-10-10 00:00:00 +0000
+---
+
+
+To branch or not to branch - it's not even a question.
 
 Not branching prevents you taking risks, but branching isn't free so there's a tradeoff.
-
 
 <table>
 <tbody>
@@ -19,22 +24,22 @@ Not branching prevents you taking risks, but branching isn't free so there's a t
 <td>Have configuration turning your branch on and off dynamically at runtime.</td>
 <td>
 <ul>
-    <li>No merging</li>
+ <li>No merging</li>
 </ul>
 </td>
 <td></td>
 </tr>
 <tr>
 <td>Feature Branches</td>
-<td> A branch for a specific story/feature, reintegrated into trunk when it's 'done'.</td>
+<td> A branch for a specific story/feature, reintegrated into trunk when it's 'done'.</td>
 <td>
 <ul>
-    <li>Team is isolated from the firehose.</li>
+ <li>Team is isolated from the firehose.</li>
 </ul>
 </td>
 <td>
 <ul>
-    <li>More costly than branching by abstraction due to merge overhead.</li>
+ <li>More costly than branching by abstraction due to merge overhead.</li>
 </ul>
 </td>
 </tr>
@@ -43,8 +48,8 @@ Not branching prevents you taking risks, but branching isn't free so there's a t
 <td>No checkins to release branches are allowed. Everything change on a release branch must be merged in.</td>
 <td>
 <ul>
-    <li></li>
-    <li>No way to regress changes as everything is applied to the trunk branch before it gets into prod,</li>
+ <li></li>
+ <li>No way to regress changes as everything is applied to the trunk branch before it gets into prod,</li>
 </ul>
 </td>
 <td></td>
@@ -52,6 +57,4 @@ Not branching prevents you taking risks, but branching isn't free so there's a t
 </tbody>
 </table>
 
-&nbsp;
-
-http://nvie.com/posts/a-successful-git-branching-model/ |
+http://nvie.com/posts/a-successful-git-branching-model/

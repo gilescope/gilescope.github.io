@@ -1,3 +1,10 @@
+---
+layout: default
+title: "No Estimates Versus One Estimates"
+date: 2016-04-20 00:00:00 +0000
+---
+
+
 No Estimates versus One Estimates
 
 Detailed Estimation is Waste.
@@ -16,4 +23,4 @@ From what I’ve seen of estimation, it’s a lot quicker to identify similar si
 
 What I’ve experienced resonates a lot with Neil Killick’s words:
 
-http://neilkillick.com/2013/01/31/noestimates-part-1-doing-scrum-without-estimates/ |
+http://neilkillick.com/2013/01/31/noestimates-part-1-doing-scrum-without-estimates/
