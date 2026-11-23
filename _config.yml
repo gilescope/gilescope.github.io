@@ -18,8 +18,11 @@ email: gilescope@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings from the trenches...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gilescope.ninja" # the base hostname & protocol for your site
 twitter_username: gilescope
+twitter:
+  username: gilescope
+  card: summary_large_image
 github_username:  gilescope
 
 # Build settings
