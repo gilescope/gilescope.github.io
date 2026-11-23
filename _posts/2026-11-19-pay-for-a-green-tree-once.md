@@ -237,8 +237,7 @@ Pay for a green tree once.
 
 ---
 
-*Drafted with Claude (claude-fable-5-1) from my notes and the repo history.
-Timings and cache counts were pulled from the GitHub API on 2026-11-19.*
+*Timings and cache counts were pulled from the GitHub API on 2026-11-19.*
 
 [^1]: Little-known in the sense that it is written in the manual, which is
     where facts go to be safe from people.
