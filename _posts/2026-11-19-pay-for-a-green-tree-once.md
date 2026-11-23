@@ -230,8 +230,19 @@ hash of every input at once, and skips it the same way. You get a little of
 their power for the price of a shell script and an empty file, and you do
 not get the rest: a one-line change to the README is a new tree, and the
 test job runs again in full, because the guard cannot tell which files a job
-reads. That is the next fence, and the proper tools already know how to
-build it. Until then, the rule is the same at any granularity.
+reads.
+
+The next fence is cheaper than it looks, because git already hands you the
+hash of any subdirectory: `git rev-parse HEAD:docs` is the tree of `docs/`
+and nothing else, and a job that only reads `docs/` can be keyed on it, after
+which README churn stops costing it anything. The catch is honesty. A key
+that says "only `docs/`" is a promise, and a job will break it the moment
+someone adds a step that peeks at a sibling. The cheap way to keep the
+promise is to make it impossible to break: once the checkout is done, delete
+everything the key does not cover, and a job that reaches outside its
+subdirectory falls over on the spot instead of quietly caching a lie. Past
+that, the proper tools already know how to build the rest of the fence.
+Until then, the rule is the same at any granularity.
 
 Pay for a green tree once.
 
