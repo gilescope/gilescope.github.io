@@ -5,6 +5,8 @@ date:   2026-11-19 12:00:00 +0000
 categories: ci github git ai
 ---
 
+![A linocut tree: tangled commit-graph roots below the ground line, one clean green canopy above it](/assets/img/pay-for-a-green-tree-once.png)
+
 It is a little-known fact[^1] that every git commit carries a second hash
 around with it, in the way that a man might carry a perfectly good umbrella
 for twenty years without once opening it. It is the one CI should have been
