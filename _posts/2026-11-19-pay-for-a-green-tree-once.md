@@ -3,6 +3,7 @@ layout: default
 title:  "Pay for a Green Tree Once"
 date:   2026-11-19 12:00:00 +0000
 categories: ci github git ai
+image: /assets/img/pay-for-a-green-tree-once-og.png
 ---
 
 ![A linocut tree: tangled commit-graph roots below the ground line, one clean green canopy above it](/assets/img/pay-for-a-green-tree-once.png)
